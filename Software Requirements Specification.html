@@ -1,0 +1,753 @@
+
+<!-- saved from url=(0077)file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="Generator" content="Microsoft FrontPage 4.0">
+    
+    <meta name="Originator" content="Microsoft Word 9">
+    <title>Software Requirements Specification</title>
+    <style>
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        h1 {
+            margin-top: 6.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: .5in;
+            text-indent: -.5in;
+            line-height: 12.0pt;
+            page-break-after: avoid;
+            font-size: 12.0pt;
+            font-family: Arial;
+        }
+        h2 {
+            margin-top: 6.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: .5in;
+            text-indent: -.5in;
+            line-height: 12.0pt;
+            page-break-after: avoid;
+            font-size: 10.0pt;
+            font-family: Arial;
+        }
+        h3 {
+            margin-top: 6.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: .5in;
+            text-indent: -.5in;
+            line-height: 12.0pt;
+            page-break-after: avoid;
+            font-size: 10.0pt;
+            font-family: Arial;
+            font-weight: normal;
+            font-style: italic;
+        }
+        h4 {
+            margin-top: 6.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: .5in;
+            text-indent: -.5in;
+            line-height: 12.0pt;
+            page-break-after: avoid;
+            font-size: 10.0pt;
+            font-family: Arial;
+            font-weight: normal;
+        }
+        h5 {
+            margin-top: 12.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: 2.0in;
+            text-indent: 0in;
+            line-height: 12.0pt;
+            font-size: 11.0pt;
+            font-family: "Times New Roman";
+            font-weight: normal;
+        }
+        h6 {
+            margin-top: 12.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: 2.0in;
+            text-indent: 0in;
+            line-height: 12.0pt;
+            font-size: 11.0pt;
+            font-family: "Times New Roman";
+            font-weight: normal;
+            font-style: italic;
+        }
+        p.MsoHeading7,
+        li.MsoHeading7,
+        div.MsoHeading7 {
+            margin-top: 12.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: 2.0in;
+            text-indent: 0in;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoHeading8,
+        li.MsoHeading8,
+        div.MsoHeading8 {
+            margin-top: 12.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: 2.0in;
+            text-indent: 0in;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+            font-style: italic;
+        }
+        p.MsoHeading9,
+        li.MsoHeading9,
+        div.MsoHeading9 {
+            margin-top: 12.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: 2.0in;
+            text-indent: 0in;
+            line-height: 12.0pt;
+            font-size: 9.0pt;
+            font-family: "Times New Roman";
+            font-weight: bold;
+            font-style: italic;
+        }
+        p.MsoToc1,
+        li.MsoToc1,
+        div.MsoToc1 {
+            margin-top: 12.0pt;
+            margin-right: .5in;
+            margin-bottom: 3.0pt;
+            margin-left: 0in;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc2,
+        li.MsoToc2,
+        div.MsoToc2 {
+            margin-top: 0in;
+            margin-right: .5in;
+            margin-bottom: 0in;
+            margin-left: .3in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc3,
+        li.MsoToc3,
+        div.MsoToc3 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: .6in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc4,
+        li.MsoToc4,
+        div.MsoToc4 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 30.0pt;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc5,
+        li.MsoToc5,
+        div.MsoToc5 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 40.0pt;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc6,
+        li.MsoToc6,
+        div.MsoToc6 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 50.0pt;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc7,
+        li.MsoToc7,
+        div.MsoToc7 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 60.0pt;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc8,
+        li.MsoToc8,
+        div.MsoToc8 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 70.0pt;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoToc9,
+        li.MsoToc9,
+        div.MsoToc9 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 80.0pt;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoNormalIndent,
+        li.MsoNormalIndent,
+        div.MsoNormalIndent {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 45.0pt;
+            margin-bottom: .0001pt;
+            text-indent: -45.0pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoFootnoteText,
+        li.MsoFootnoteText,
+        div.MsoFootnoteText {
+            margin-top: 2.0pt;
+            margin-right: 0in;
+            margin-bottom: 2.0pt;
+            margin-left: .25in;
+            text-indent: -.25in;
+            line-height: 12.0pt;
+            page-break-after: avoid;
+            border: none;
+            padding: 0in;
+            font-size: 8.0pt;
+            font-family: HELVETICA;
+        }
+        p.MsoHeader,
+        li.MsoHeader,
+        div.MsoHeader {
+            margin: 0in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoFooter,
+        li.MsoFooter,
+        div.MsoFooter {
+            margin: 0in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        span.MsoFootnoteReference {
+            vertical-align: super;
+        }
+        p.MsoTitle,
+        li.MsoTitle,
+        div.MsoTitle {
+            margin: 0in;
+            margin-bottom: .0001pt;
+            text-align: center;
+            font-size: 18.0pt;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        p.MsoBodyText,
+        li.MsoBodyText,
+        div.MsoBodyText {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 6.0pt;
+            margin-left: .5in;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MsoBodyTextIndent,
+        li.MsoBodyTextIndent,
+        div.MsoBodyTextIndent {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: .5in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+            color: blue;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        p.MsoSubtitle,
+        li.MsoSubtitle,
+        div.MsoSubtitle {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: 0in;
+            text-align: center;
+            font-size: 18.0pt;
+            font-family: Arial;
+            font-style: italic;
+        }
+        p.MsoBodyText2,
+        li.MsoBodyText2,
+        div.MsoBodyText2 {
+            margin: 0in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+            color: blue;
+            font-style: italic;
+        }
+        a:link,
+        span.MsoHyperlink {
+            color: blue;
+            text-decoration: underline;
+        }
+        a:visited,
+        span.MsoHyperlinkFollowed {
+            color: purple;
+            text-decoration: underline;
+        }
+        p.MsoDocumentMap,
+        li.MsoDocumentMap,
+        div.MsoDocumentMap {
+            margin: 0in;
+            margin-bottom: .0001pt;
+            line-height: 12.0pt;
+            background: navy;
+            font-size: 10.0pt;
+            font-family: Tahoma;
+        }
+        p.Paragraph2,
+        li.Paragraph2,
+        div.Paragraph2 {
+            margin-top: 4.0pt;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: .5in;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+            color: black;
+        }
+        p.Bullet1,
+        li.Bullet1,
+        div.Bullet1 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: .5in;
+            margin-bottom: .0001pt;
+            text-indent: -.3in;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.Bullet2,
+        li.Bullet2,
+        div.Bullet2 {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 1.0in;
+            margin-bottom: .0001pt;
+            text-indent: -.25in;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+            color: navy;
+        }
+        p.Tabletext,
+        li.Tabletext,
+        div.Tabletext {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 6.0pt;
+            margin-left: 0in;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.MainTitle,
+        li.MainTitle,
+        div.MainTitle {
+            margin-top: 24.0pt;
+            margin-right: 0in;
+            margin-bottom: 3.0pt;
+            margin-left: 0in;
+            text-align: center;
+            font-size: 16.0pt;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        p.Paragraph1,
+        li.Paragraph1,
+        div.Paragraph1 {
+            margin-top: 4.0pt;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 0in;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.Paragraph3,
+        li.Paragraph3,
+        div.Paragraph3 {
+            margin-top: 4.0pt;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 76.5pt;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.Paragraph4,
+        li.Paragraph4,
+        div.Paragraph4 {
+            margin-top: 4.0pt;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 112.5pt;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+        }
+        p.Body,
+        li.Body,
+        div.Body {
+            margin-top: 6.0pt;
+            margin-right: 0in;
+            margin-bottom: 0in;
+            margin-left: 0in;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            font-size: 10.0pt;
+            font-family: "Book Antiqua";
+        }
+        p.Bullet,
+        li.Bullet,
+        div.Bullet {
+            margin-top: 6.0pt;
+            margin-right: .25in;
+            margin-bottom: 0in;
+            margin-left: .5in;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            text-indent: 0in;
+            font-size: 10.0pt;
+            font-family: "Book Antiqua";
+        }
+        p.InfoBlue,
+        li.InfoBlue,
+        div.InfoBlue {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 6.0pt;
+            margin-left: 38.25pt;
+            line-height: 12.0pt;
+            font-size: 10.0pt;
+            font-family: "Times New Roman";
+            color: blue;
+            font-style: italic;
+        }
+        ol {
+            margin-bottom: 0in;
+        }
+        ul {
+            margin-bottom: 0in;
+        }
+    </style>
+</head>
+
+<body lang="EN-US" link="blue" vlink="purple" contenteditable="true">
+    <p style="MARGIN: -14px 0px +2px"></p><div class="Section1">
+
+        <p class="MsoTitle" align="right" style="text-align:right"><br></p><p class="MsoTitle" align="right" style="text-align:right">Stock Party Software</p>
+
+        <p class="MsoTitle" align="right" style="text-align:right">Software Requirements Specification</p>
+
+        <p class="MsoTitle" align="right" style="text-align:right">For node.JS / node-webkit / RFID
+        </p>
+
+        <p class="MsoNormal">&nbsp;</p>
+
+        <p class="MsoNormal">&nbsp;</p>
+
+        <p class="MsoTitle" align="right" style="text-align:right"><span style="font-size:
+14.0pt;">Version 1.0</span></p>
+
+        <p class="MsoTitle"><span style="font-size:14.0pt;">&nbsp;</span>
+        </p>
+
+        <p class="MsoNormal" align="right" style="text-align:right">&nbsp;</p>
+
+        <p class="InfoBlue"><br></p>
+
+    </div>
+
+    <i><span style="font-size:10.0pt;font-family:
+&quot;Times New Roman&quot;;color:blue;"><br clear="all" style="page-break-before:always;">
+</span></i>
+
+    <div class="Section2">
+
+        <p class="MsoTitle">Revision History</p>
+
+        <table border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;
+ border:none;">
+            <tbody><tr>
+                <td width="154" valign="top" style="width:1.6in;border:solid windowtext .75pt; padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext" align="center" style="text-align:center"><b>Date</b>
+                    </p>
+                </td>
+                <td width="77" valign="top" style="width:.8in;border:solid windowtext .75pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext" align="center" style="text-align:center"><b>Version</b>
+                    </p>
+                </td>
+                <td width="250" valign="top" style="width:2.6in;border:solid windowtext .75pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext" align="center" style="text-align:center"><b>Description</b>
+                    </p>
+                </td>
+                <td width="154" valign="top" style="width:1.6in;border:solid windowtext .75pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext" align="center" style="text-align:center"><b>Author</b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="154" valign="top" style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">09/10/2014</p>
+                </td>
+                <td width="77" valign="top" style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">1.0</p>
+                </td>
+                <td width="250" valign="top" style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">Initial setup of SRS Template</p>
+                </td>
+                <td width="154" valign="top" style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">Dustin Hoffner</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="154" valign="top" style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="77" valign="top" style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="250" valign="top" style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="154" valign="top" style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="154" valign="top" style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="77" valign="top" style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="250" valign="top" style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="154" valign="top" style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="154" valign="top" style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="77" valign="top" style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="250" valign="top" style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+                <td width="154" valign="top" style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt">
+                    <p class="Tabletext">&nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+
+        <p class="MsoNormal">&nbsp;</p>
+
+        <b><span style="font-size:18.0pt;font-family:Arial;"><br clear="all" style="page-break-before:always">
+</span></b>
+
+        <p class="MsoTitle">Table of Contents</p>
+
+        <p class="MsoToc1"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.                  Introduction" "="">1.
+Introduction</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.1 Purpose" "="">1.1Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Purpose</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+        <p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.2               Scope" "="">1.2Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Scope</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.3 Definitions, Acronyms and Abbreviations" "="">1.3Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Definitions, Acronyms and Abbreviations
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+        <p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.4               References" "="">1.4
+References</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.5 Overview" "="">1.5Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Overview</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+        <p class="MsoToc1"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#2.                  Overall Description" "="">2.Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Overall
+Description</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#2.1 Use-Case Model Survey" "="">2.1Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Use-Case Model Survey
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+        <p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#2.2               Assumptions and Dependencies" "="">2.2Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Assumptions and
+Dependencies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#3. Specific Requirements" "="">3.Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Specific Requirements
+            </a>
+        </p>
+
+        <p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#3.1               Use-Case Reports" "="">3.1Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Use-Case
+Reports</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#3.2 Supplementary Requirements" "="">3.2Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Supplementary Requirements
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+        <p class="MsoToc1">
+            <a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#4.                  Supporting Information">4.Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Supporting
+Information</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoTitle"><br clear="all" style="page-break-before:always">Software Requirements
+Specification </p>
+
+<h1><a name="1. Introduction ">1.<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Introduction</a></h1>
+<p>Das Projekt soll die technische Realisierung einer "Stock-Party" ermöglichen. Bei einer Stock-Party werden die Preise der Getränke Ähnlich wie an der Börse durch die Nachfrage steigen oder fallen. Hierbei soll ein Kassensystem mittels RFID Karten realisiert werden. Es muss möglich sein Karten mit einem Geldbetrag aufzuladen und später an der Kasse die Getränke damit zu bezahlen. Für das Gesamte Projekt müssen eine Web-Apps für die Kasse, die Aufladen-Kasse, der Börsen-Monitor sowie eine Admin Konsole entwickelt werden. Außerdem soll ein Alkohol-Tester in das System eingebunden werden, welcher Einfluss auf dem Preis haben kann. Für die Anbindung des RFID-Readers muss ein node.JS Treiber entwickelt werden. Des Weiteren soll es möglich sein, mit einer parallel laufenden Stock-Party an einem anderen Ort konkurrierend zu trinken. Hierfür soll auf beiden Partys ein Monitor eingerichtet werden, welcher einen Vergleich des Getränkekonsums darstellt.</p>
+
+<h2><a name="1.1 Purpose ">1.1<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Purpose</a></h2><div><a name="1.1 Purpose ">Desktop-Application:</a></div><div>The desktop-application includes following sub-applications.</div><div><br></div><div>Cash-Register:</div><div>- Buy Drinks</div><div>- Charge Card</div><div><br></div><div>Admin-Panel:</div><div>- Configuration/Installation</div><div>- Manage Drinks</div><div>- Settings</div><div>- Statistics</div><div><br></div><div>Graph/Price-Monitor:</div><div>- Show Graphs</div><div>&nbsp; - Time/Price Graph</div><div>&nbsp; - Time/Alcohol-Level Graph</div><div>- Current Price-List</div><div><br></div><div>Alcohol-Tester:</div><div>- Detects your Alcohol level</div><div>- Optionally saves alcohol level to personal database record</div><div><br></div><div><a name="1.1 Purpose ">Smartphone-Application:</a></div><div>- Show personal History</div><div>- Show realtime graph</div><div>- price notifications</div><div><br></div>
+
+<h2><a name="1.2 Scope ">1.2<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Scope</a></h2><div><a name="1.2 Scope ">https://bytebucket.org/stockings/projectmanagement/raw/2de45cdd71d26563ccd60c27024af333898259cd/useCaseReport.pdf</a></div>
+
+<h2><a name="1.3 Definitions, Acronyms and Abbreviations ">1.3<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Definitions, Acronyms and Abbreviations</a></h2><div><a name="1.3 Definitions, Acronyms and Abbreviations ">RFID = Radio Frequency Identification</a></div>
+
+<h2><a name="1.4 References ">1.4<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>References</a></h2><div><a name="1.4 References "><a name="1.2 Scope ">https://bytebucket.org/stockings/projectmanagement/raw/2de45cdd71d26563ccd60c27024af333898259cd/useCaseReport.pdf</a></a></div><div><a name="1.4 References "><a name="1.2 Scope "><a href="https://bitbucket.org/stockings/projectmanagement/src/fad82a33f587ebd9475f3b57887733d4f7143161/useCases.pdf?at=master">Use Case Diagram</a></a></a></div>
+
+<h2><a name="1.5 Overview ">1.5<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Overview</a></h2><div><a name="1.5 Overview ">This SRS gives an Overview of our project "Stock-Party" which includes goals, required features and technologies being used.</a></div>
+
+<h1><a name="2. Overall Description ">2.<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Overall Description</a></h1><div><a name="2. Overall Description ">Here the Use-Case-Model is described and the requirements are specified.</a></div>
+
+<h2><a name="2.1 Use-Case Model Survey ">2.1<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Use-Case Model Survey</a></h2><div><a name="2.1 Use-Case Model Survey ">The Use-Case-Model contains two Systems: See 1.1!</a></div><div><a name="2.1 Use-Case Model Survey "><a href="https://bitbucket.org/stockings/projectmanagement/src/fad82a33f587ebd9475f3b57887733d4f7143161/useCases.pdf?at=master">Use Case Diagram</a><br><a href="https://bitbucket.org/stockings/projectmanagement/src/fad82a33f587ebd9475f3b57887733d4f7143161/useCaseReport.pdf?at=master">Use Case Report</a></a></div>
+
+<h2><a name="2.2 Assumptions and Dependencies ">2.2<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Assumptions and Dependencies</a></h2><div><a name="2.2 Assumptions and Dependencies ">- node.JS</a></div><div><a name="2.2 Assumptions and Dependencies ">- JavaScript</a></div><div><a name="2.2 Assumptions and Dependencies ">- C</a></div><div><a name="2.2 Assumptions and Dependencies ">- RFID</a></div><div><a name="2.2 Assumptions and Dependencies ">- Socket.IO</a></div>
+
+<h1><a name="3. Specific Requirements ">3.<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Specific Requirements</a> </h1><div><a name="3. Specific Requirements ">https://www.draw.io/?#G0B7nNErk0bX8_MlBIQ3BqTVRIeTg</a></div>
+
+<h2><a name="3.1 Use-Case Reports ">3.1<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Use-Case Reports</a></h2>
+
+        <p><a href="https://bitbucket.org/stockings/projectmanagement/src/fad82a33f587ebd9475f3b57887733d4f7143161/useCases.pdf?at=master">Use Case Diagram</a><br>
+        <a href="https://bitbucket.org/stockings/projectmanagement/src/fad82a33f587ebd9475f3b57887733d4f7143161/useCaseReport.pdf?at=master">Use Case Report</a>
+        </p>
+        
+
+<h2><a name="3.2 Supplementary Requirements ">3.2<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Supplementary Requirements</a> </h2><div><a name="3.2 Supplementary Requirements ">Modular-architecture</a></div><div><a name="3.2 Supplementary Requirements ">API for everything</a></div><div><a name="3.2 Supplementary Requirements ">Simplified design</a></div><div>Gamification</div>
+
+<h1><a name="4. Supporting Information ">4.<span style="font:7.0pt &quot;Times New Roman &quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Supporting Information</a></h1>
+
+<p class="MsoToc1"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.                  Introduction" "="">1. Introduction</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.1 Purpose" "="">1.1Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Purpose</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.2               Scope" "="">1.2Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Scope</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.3 Definitions, Acronyms and Abbreviations" "="">1.3Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Definitions, Acronyms and Abbreviations&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.4               References" "="">1.4 References</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#1.5 Overview" "="">1.5Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Overview</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc1"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#2.                  Overall Description" "="">2.Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Overall Description</a>&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#2.1 Use-Case Model Survey" "="">2.1Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Use-Case Model Survey&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#2.2               Assumptions and Dependencies" "="">2.2Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Assumptions and Dependencies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc1"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#3. Specific Requirements" "="">3.Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Specific Requirements</a></p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#3.1               Use-Case Reports" "="">3.1Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Use-Case Reports</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc2"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#3.2 Supplementary Requirements" "="">3.2Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Supplementary Requirements&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="MsoToc1"><a href="file:///Users/hex0r/BitBucket/stockings/projectmanagement/stockparty_srs.html#4.                  Supporting Information">4.Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp;Â&nbsp; Supporting Information</a>&nbsp; &nbsp;&nbsp;</p>
+
+</div>
+
+
+
+
+
+</body></html>
