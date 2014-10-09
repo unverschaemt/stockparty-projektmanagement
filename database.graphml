@@ -17,16 +17,17 @@
     <node id="n0">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="115.0" width="80.0" x="117.5" y="35.0"/>
+          <y:Geometry height="131.0" width="80.0" x="117.5" y="27.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="38.001953125" x="20.9990234375" y="4.0">Drinks</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="84.0" modelName="custom" textColor="#000000" visible="true" width="56.0" x="2.0" y="30.701171875">&lt;html&gt;
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="100.0" modelName="custom" textColor="#000000" visible="true" width="57.0" x="2.0" y="30.701171875">&lt;html&gt;
 &lt;u&gt;ID&lt;/u&gt;&lt;br&gt;
 &lt;u&gt;Size&lt;/u&gt;&lt;br&gt;
 Name&lt;br&gt;
 PriceMin&lt;br&gt;
 PriceMax&lt;br&gt;
+PriceStart
 &lt;/html&gt;<y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
             </y:LabelModel>
@@ -43,7 +44,7 @@ PriceMax&lt;br&gt;
     <node id="n1">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="102.0" width="80.0" x="117.5" y="-121.0"/>
+          <y:Geometry height="102.0" width="80.0" x="117.5" y="-129.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="41.3359375" x="19.33203125" y="4.0">History</y:NodeLabel>
@@ -97,7 +98,7 @@ Quantity
           <y:Geometry height="90.0" width="80.0" x="-25.5" y="47.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="33.337890625" x="23.3310546875" y="4.0">Texts</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="64.673828125" x="7.6630859375" y="4.0">Drink Texts</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="52.0" modelName="custom" textColor="#000000" visible="true" width="60.0" x="2.0" y="30.701171875">&lt;html&gt;
 &lt;u&gt;ID&lt;/u&gt;&lt;br&gt;
 &lt;u&gt;Language&lt;/u&gt;&lt;br&gt;
@@ -140,7 +141,6 @@ Birthdate&lt;br&gt;
       </data>
     </node>
     <node id="n5">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="90.0" width="80.0" x="560.5" y="47.5"/>
@@ -205,7 +205,6 @@ Person
       </data>
     </edge>
     <edge id="e4" source="n5" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
