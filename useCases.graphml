@@ -307,10 +307,10 @@
     <node id="n16">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="65.0" width="149.0" x="714.0" y="205.0"/>
+          <y:Geometry height="65.0" width="149.0" x="714.0" y="300.0"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="60.021484375" x="44.4892578125" y="23.1494140625">Pay drinks<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="94.03515625" x="27.482421875" y="23.1494140625">Create Algorithm<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -324,10 +324,10 @@
     <node id="n17">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="65.0" width="149.0" x="714.0" y="300.0"/>
+          <y:Geometry height="65.0" width="149.0" x="714.0" y="205.0"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="94.03515625" x="27.482421875" y="23.1494140625">Create Algorithm<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="88.720703125" x="30.1396484375" y="23.1494140625">loading of cards<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
