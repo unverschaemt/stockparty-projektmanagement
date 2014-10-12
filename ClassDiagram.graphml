@@ -44,16 +44,17 @@ currentPrice: Currency&lt;br&gt;
     <node id="n1">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="117.0" width="231.0" x="982.1835989375829" y="406.0"/>
+          <y:Geometry height="125.0" width="231.0" x="982.1835989375829" y="398.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="76.697265625" x="77.1513671875" y="4.0">CashRegister</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="76.0" modelName="custom" textColor="#000000" visible="true" width="222.0" x="2.0" y="30.701171875">&lt;html&gt;
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.0" modelName="custom" textColor="#000000" visible="true" width="231.0" x="2.0" y="30.701171875">&lt;html&gt;
 drinks: Iterable&amp;lt;DrinkDTO&amp;gt;&lt;br&gt;
 
 &lt;hr&gt;
 orderDrinks(Order order)&lt;br&gt;
 fixPrices() : Iterable&amp;lt;DrinkDTO&amp;gt;&lt;br&gt;
+getRFIDReader() : Iterable&amp;lt;RFIDReader&amp;gt;&lt;br&gt;
 linkToRFIDReader(RFIDReader reader)&lt;br&gt;
 &lt;/html&gt;<y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
@@ -71,10 +72,10 @@ linkToRFIDReader(RFIDReader reader)&lt;br&gt;
     <node id="n2">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="88.0" width="157.48738379814074" x="780.2712379173082" y="435.0"/>
+          <y:Geometry height="88.0" width="157.48738379814074" x="780.2712379173082" y="430.0769230769231"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="60.00390625" x="48.74173877407043" y="4.0">OrderDTO</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="60.00390625" x="48.74173877407031" y="4.0">OrderDTO</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.0" modelName="custom" textColor="#000000" visible="true" width="149.0" x="2.0" y="30.701171875">&lt;html&gt;
 customer: UUID&lt;br&gt;
 drinks: Set&amp;lt;DrinkDTO, int&amp;gt;&lt;br&gt;
@@ -338,7 +339,6 @@ drinkHistory: Set&amp;lt;TimeStamp, double&amp;gt;&lt;br&gt;
       </data>
     </node>
     <node id="n12">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="125.0" width="205.0" x="1847.6362246241738" y="680.0839435228451"/>
@@ -368,7 +368,6 @@ getSettings() : GraphSettings&lt;br&gt;
       </data>
     </node>
     <node id="n13">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="174.93333333333334" width="273.0" x="1450.5637616201864" y="-25.714004198260767"/>
@@ -401,7 +400,6 @@ disableStockCrash()&lt;br&gt;
       </data>
     </node>
     <node id="n14">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="139.0" width="238.42903225806458" x="1877.1419354838708" y="107.51290322580647"/>
@@ -433,17 +431,17 @@ removeAlcoholTester(AlcoholTester tester)&lt;br&gt;
       </data>
     </node>
     <node id="n15">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="83.0" width="231.0" x="1855.124755138498" y="-149.89654139956738"/>
+          <y:Geometry height="94.39999999999998" width="273.0" x="1855.124755138498" y="-149.89654139956738"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="149.412109375" x="40.7939453125" y="4.0">RFIDReader &lt;&lt;Interface&gt;&gt;</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.0" modelName="custom" textColor="#000000" visible="true" width="232.0" x="2.0" y="30.701171875">&lt;html&gt;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="149.412109375" x="61.7939453125" y="4.0">RFIDReader &lt;&lt;Interface&gt;&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="60.0" modelName="custom" textColor="#000000" visible="true" width="274.0" x="2.0" y="30.701171875">&lt;html&gt;
 observer: Iterable&amp;lt;RFIDReaderObserver&amp;gt;&lt;br&gt;
 
 &lt;hr&gt;
+registerObserver(RFIDReaderObserver observer)&lt;br&gt;
 getID() : UUID id&lt;br&gt;
 
 &lt;/html&gt;<y:LabelModel>
@@ -460,7 +458,6 @@ getID() : UUID id&lt;br&gt;
       </data>
     </node>
     <node id="n16">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="77.39999999999998" width="231.0" x="2180.5734110624367" y="149.3299238629533"/>
@@ -482,7 +479,6 @@ getID() : UUID id&lt;br&gt;
       </data>
     </node>
     <node id="n17">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="72.0" width="205.0" x="1450.5637616201864" y="-118.06665460425447"/>
@@ -508,7 +504,6 @@ onRFIDIDRead(UUID id)&lt;br&gt;
       </data>
     </node>
     <node id="n18">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="207.2697010640096" width="328.5846160868937" x="2156.139794319468" y="493.15109787061834"/>
@@ -569,7 +564,7 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
     <edge id="e2" source="n1" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-89.43359893758293" sy="-13.5" tx="26.633895789391456" ty="-28.0"/>
+          <y:Path sx="-89.43359893758293" sy="-14.423076923076923" tx="26.633895789391456" ty="-28.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
@@ -592,7 +587,7 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-133.4765625" sy="-67.44048991455142" tx="-12.681776405712478" ty="-30.473001000114756">
-            <y:Point x="1295.933598937583" y="474.23845679012345"/>
+            <y:Point x="1295.933598937583" y="476.36643229439585"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
@@ -617,7 +612,7 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-120.5" sy="-88.49794238683118" tx="0.0" ty="0.0">
-            <y:Point x="1296.433598937583" y="454.23387694145765"/>
+            <y:Point x="1296.433598937583" y="455.3089798221161"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
@@ -699,7 +694,6 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e13" source="n11" target="n8">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -710,7 +704,6 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e14" source="n12" target="n8">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-102.48778712417334" sy="-26.500634831207094" tx="64.97872050388575" ty="-11.382700887022338"/>
@@ -721,7 +714,6 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e15" source="n4" target="n13">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="122.99170194223143" sy="-50.67286633620635" tx="121.23311337981409" ty="-78.46666666666667">
@@ -735,12 +727,11 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e16" source="n14" target="n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-36.27044634692361" sy="-26.283870967741933" tx="8.140662650602918" ty="-18.825085153275886">
+          <y:Path sx="-36.27044634692361" sy="-26.283870967741933" tx="7.316105076555914" ty="-27.705376344085977">
             <y:Point x="2153.2922003654953" y="150.72903225806454"/>
-            <y:Point x="2153.2922003654953" y="-124.70299301247056"/>
+            <y:Point x="2153.2922003654953" y="-130.40191774365337"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
@@ -749,7 +740,6 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e17" source="n14" target="n16">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="18.13550063591184" sy="-10.364516129032268" tx="40.99133232892537" ty="-21.381536766179106"/>
@@ -760,7 +750,6 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e18" source="n4" target="n14">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="122.97739691815582" sy="-17.48230423643662" tx="-47.698924731182615" ty="-54.938709677419354">
@@ -774,10 +763,9 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e19" source="n15" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="44.9903440449948" ty="-26.329886795312916"/>
+          <y:Path sx="-15.479593848175455" sy="-5.699999999999989" tx="44.9903440449948" ty="-26.329886795312916"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
@@ -785,10 +773,9 @@ getAlgorithms() : CalculatorStrategy&lt;br&gt;
       </data>
     </edge>
     <edge id="e20" source="n1" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-29.08975175047749" sy="-5.737428389560762" tx="-102.47694690643925" ty="-24.396294804680807">
+          <y:Path sx="-29.08975175047749" sy="-6.129731185428164" tx="-102.47694690643925" ty="-24.396294804680807">
             <y:Point x="1068.5938471871054" y="-106.46294940893527"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
