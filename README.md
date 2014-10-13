@@ -3,7 +3,10 @@ Stock party is a system to run an innovative party according to the world stock 
     
 
 ** [SRS](https://bitbucket.org/stockings/projectmanagement/src/13eabc446ad2a38664fdf10eea87499ccbb88610/srs.md?at=master)**   
-(please review)
+(please review on our blog)
+
+**Blog**    
+Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)
 
 **Network Plan**    
 Visit [draw.io](https://drive.google.com/file/d/0B7nNErk0bX8_MlBIQ3BqTVRIeTg/view?usp=sharing)
