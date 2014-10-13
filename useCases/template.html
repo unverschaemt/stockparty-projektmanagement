@@ -1,0 +1,639 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="Generator" content="Microsoft FrontPage 4.0">
+
+<meta name="Originator" content="Microsoft Word 9">
+<title>Use Case Specification: &lt;Use-Case Name&gt;</title>
+<style>
+<!--
+ 
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+h1
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:Arial;}
+h2
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:Arial;}
+h3
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:Arial;
+	font-weight:normal;
+	font-style:italic;}
+h4
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:Arial;
+	font-weight:normal;}
+h5
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;}
+h6
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{
+	margin-top:12.0pt;
+	margin-right:.5in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:50.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:70.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:80.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:45.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.0pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	border:none;
+	padding:0in;
+	font-size:8.0pt;
+	font-family:HELVETICA;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+span.MsoFootnoteReference
+	{
+	vertical-align:super;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:18.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:blue;
+	font-style:italic;
+	text-decoration:underline;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:18.0pt;
+	font-family:Arial;
+	font-style:italic;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:blue;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	background:navy;
+	font-size:10.0pt;
+	font-family:Tahoma;}
+p.Paragraph2, li.Paragraph2, div.Paragraph2
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;}
+p.Paragraph3, li.Paragraph3, div.Paragraph3
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:76.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Paragraph4, li.Paragraph4, div.Paragraph4
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:112.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Tabletext, li.Tabletext, div.Tabletext
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Bullet1, li.Bullet1, div.Bullet1
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.3in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Bullet2, li.Bullet2, div.Bullet2
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:navy;}
+p.MainTitle, li.MainTitle, div.MainTitle
+	{
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.Paragraph1, li.Paragraph1, div.Paragraph1
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Body, li.Body, div.Body
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Book Antiqua";}
+p.Bullet, li.Bullet, div.Bullet
+	{
+	margin-top:6.0pt;
+	margin-right:.25in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:0in;
+	font-size:10.0pt;
+	font-family:"Book Antiqua";}
+p.InfoBlue, li.InfoBlue, div.InfoBlue
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:blue;
+	font-style:italic;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head>
+
+<body lang="EN-US" link="blue" vlink="purple">
+
+<div class="Section1">
+
+<p class="MsoTitle" align="right" style="text-align:right">stockParty</p>
+
+    <p class="MsoTitle" align="right" style="text-align:right">Use Case Specification: Add/Remove Drinks</p>
+
+<p class="MsoTitle" align="right" style="text-align:right">&nbsp;</p>
+
+<p class="MsoTitle" align="right" style="text-align:right"><span style="font-size:
+14.0pt;">Version &lt;1.0&gt;</span></p>
+
+</div>
+
+<span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;;"><br clear="all" style="page-break-before:always;">
+</span>
+
+<div>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<b><span style="font-size:18.0pt;font-family:Arial;"><br clear="all" style="page-break-before:always">
+</span></b>
+
+<p class="MsoTitle">Table of Contents</p>
+
+<p class="MsoToc1"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#1.                  Use Case Name" "="">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use-Case
+Name</a>&nbsp;</p>
+
+<p class="MsoToc2"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#1.1               Brief Description" "="">1.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Brief
+Description</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#2.                  Flow of Events" "="">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Flow of
+Events</a></p>
+
+<p class="MsoToc2"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#2.1               Basic Flow" "="">2.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Basic
+Flow</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#2.2               Alternative Flows" "="">2.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternative
+Flows</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc3"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#2.2.1          < First Alternative Flow >" "="">2.2.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; First Alternative Flow &gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc3"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#2.2.2          < Second Alternative Flow >" "="">2.2.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; Second Alternative Flow &gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#3.                  Special Requirements" "="">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Special
+Requirements</a></p>
+
+<p class="MsoToc2"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#3.1               < First Special Requirement >" "="">3.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; First
+Special Requirement &gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#4.                  Preconditions" "="">4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Preconditions</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#4.1               < Precondition One >" "="">4.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; Precondition One &gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#5.                  Postconditions" "="">5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Postconditions</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#5.1               < Postcondition One >" "="">5.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; Postcondition One &gt;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#6.                  Extension Points" "="">6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Extension
+Points</a></p>
+
+<p class="MsoToc2"><a href="http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/req/rup_ucspec.htm#6.1               <Name of Extension Point>" "="">6.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Name of
+Extension Point&gt;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoTitle"><br clear="all" style="page-break-before:always">Use-Case Specification: Add/Remove Drinks</p>
+
+<h1><a name="1.                  Use Case Name">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Add/Remove Drinks</a></h1>
+
+<h2><a name="1.1               Brief Description">1.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Brief Description</a></h2>
+
+<p class="InfoBlue">[The description briefly conveys the purpose
+of the use case.&nbsp; A single paragraph will suffice for this description.]</p>
+
+<h1><a name="2.                  Flow of Events">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Flow of Events</a></h1>
+
+<h2><a name="2.1               Basic Flow">2.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Basic Flow</a> </h2>
+
+<p class="InfoBlue">[This use case starts when the actor does something.&nbsp; An actor always initiates use
+cases.&nbsp; The use case describes what the actor
+does and what the system does in response.&nbsp;
+It needs to be phrased in the form of a dialog between the actor and the
+system.</p>
+
+<p class="InfoBlue">The use case describes what happens inside the system,
+but not how or why.&nbsp; If information is
+exchanged, be specific about what is passed back and forth.&nbsp; For example, it is not very illuminating to
+say that the actor enters customer information. It is better to say the actor
+enters the customer’s name and address.&nbsp;
+A Glossary of Terms is often useful to keep the complexity of the use
+case manageable—you
+may want to define things like customer information there to keep the use case
+from drowning in details. </p>
+
+<p class="InfoBlue">Simple alternatives may be presented within the text of the
+use case.&nbsp; If it only takes a few
+sentences to describe what happens when there is an alternative, do it directly
+within the <b>Flow of Events</b> section.&nbsp;
+If the alternative flow is more complex, use a separate section to
+describe it.&nbsp; For example, an <b>Alternative
+Flow</b> subsection explains how to describe more complex alternatives. </p>
+
+<p class="InfoBlue">A picture is sometimes worth a thousand words, though there
+is no substitute for clean, clear prose.&nbsp;
+If it improves clarity, feel free to paste graphical depictions of user
+interfaces, process flows or other figures into the use case.&nbsp; If a flow chart is useful to present a
+complex decision process, by all means use it!&nbsp;
+Similarly for state-dependent behavior, a state-transition diagram often
+clarifies the behavior of a system better than pages upon pages of text.&nbsp; Use the right presentation medium for your
+problem, but be wary of using terminology, notations or figures that your
+audience may not understand.&nbsp; Remember
+that your purpose is to clarify, not obscure.]</p>
+
+<h2><a name="2.2               Alternative Flows">2.2<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Alternative Flows</a></h2>
+
+<h3><a name="2.2.1          &lt; First Alternative Flow &gt;">2.2.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>&lt; First Alternative Flow &gt;</a></h3>
+
+<p class="InfoBlue">[More complex alternatives are described in a separate
+section, referred to in the <b>Basic Flow</b> subsection of <b>Flow of
+Events</b> section.&nbsp; Think of the <b>Alternative
+Flow</b> subsections like alternative behavior—each alternative flow
+represents alternative behavior usually due to exceptions that occur in
+the main flow.&nbsp; They may be as long as
+necessary to describe the events associated with the alternative behavior.&nbsp; When an alternative flow ends, the events of
+the main flow of events are resumed unless otherwise stated.]</p>
+
+<h4>2.2.1.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;
+An Alternative Sub-flow &gt;</h4>
+
+<p class="InfoBlue">[Alternative flows may, in turn, be divided into
+subsections if it improves clarity.]</p>
+
+<h3><a name="2.2.2          &lt; Second Alternative Flow &gt;">2.2.2<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>&lt; Second Alternative Flow &gt;</a></h3>
+
+<p class="InfoBlue">[There may be, and most likely will be, a number of
+alternative flows in a use case.&nbsp; Keep
+each alternative flow separate to improve clarity.&nbsp;
+Using alternative flows improves the readability of the use case, as
+well as preventing use cases from being decomposed into hierarchies of use
+cases.&nbsp; Keep in mind that use cases are
+just textual descriptions, and their main purpose is to document the behavior
+of a system in a clear, concise, and understandable way.]</p>
+
+<h1><a name="3.                  Special Requirements">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Special Requirements</a></h1>
+
+<p class="InfoBlue">[A special requirement is typically a nonfunctional
+requirement that is specific to a use case, but is not easily or naturally
+specified in the text of the use case’s event flow. Examples of special
+requirements include legal and regulatory requirements, application standards,
+and quality attributes of the system to be built including usability,
+reliability, performance or supportability requirements. Additionally, other
+requirements—such
+as operating systems and environments, compatibility requirements, and design
+constraints—should
+be captured in this section.]</p>
+
+<h2><a name="3.1               &lt; First Special Requirement &gt;">3.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>&lt; First Special Requirement &gt;</a></h2>
+
+<p>&nbsp;</p>
+
+<h1><a name="4.                  Preconditions">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Preconditions</a></h1>
+
+<p class="InfoBlue">[A precondition of a use case is the state of the system
+that must be present prior to a use case being performed.]</p>
+
+<h2><a name="4.1               &lt; Precondition One &gt;">4.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>&lt; Precondition One &gt;</a></h2>
+
+<p>&nbsp;</p>
+
+<h1><a name="5.                  Postconditions">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Postconditions</a></h1>
+
+<p class="InfoBlue">[A postcondition of a use case is a list of possible states
+the system can be in immediately after a use case has finished.]</p>
+
+<h2><a name="5.1               &lt; Postcondition One &gt;">5.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>&lt; Postcondition One &gt;</a></h2>
+
+<p>&nbsp;</p>
+
+<h1><a name="6.                  Extension Points">6.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Extension Points</a></h1>
+
+<p class="InfoBlue">[Extension points of the use case.]</p>
+
+<h2><a name="6.1               &lt;Name of Extension Point&gt;">6.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>&lt;Name of Extension Point&gt;</a></h2>
+
+<p class="InfoBlue">[Definition of the location of the extension point in the
+flow of events.]</p>
+
+<p class="InfoBlue">&nbsp;</p>
+
+</div>
+
+
+
+
+</body></html>
