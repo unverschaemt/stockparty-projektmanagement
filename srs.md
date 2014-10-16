@@ -1,18 +1,21 @@
 # Stock Party Software #
+---
 ## Software Requirements Specification ##
-### For node.JS / node-webkit / RFID ###
+#### For node.JS / node-webkit / RFID ####
  
 *Version 1.0*   
     
  
 
 ## Revision History ##
+----
 Check this file's history directly on Bitbucket.     
 [SRS Revision History](https://bitbucket.org/stockings/projectmanagement/history-node/92b227729475/srs.md?at=master)
 
 
 
 ## Table of Contents ##
+---
 1. **Introduction**         
 1.1 Purpose     
 1.2 Scope     
@@ -23,19 +26,38 @@ Check this file's history directly on Bitbucket.
 2.1 Use-Case Model Survey          
 2.2 Assumptions and Dependencies       
 3. **Specific Requirements**     
-3.1 Use-Case Reports     
+3.1 Functionality   
+3.2 Usability   
+3.3 Reliability   
+3.4 Performance   
+3.5 Supportability   
+3.6 Design Constrains   
+3.7 On-Line User Documentation and Help System Requirements    
+3.8 Purchase Components   
+3.9 **Interfaces**   
+3.9.1 *User Interfaces*    
+3.9.2 *Hardware*   
+3.9.3 *Software*    
+3.9.4 *Communication*    
+3.10 Licensing Requirements
+3.11 Legal, Copyright and Other Notices    
+3.11.1 *Dependencies*  
+3.12 Applicable Standards   
 3.2 Supplementary Requirements    
-4. Supporting Information
+4. **Supporting Information**
 
 
 # Software Requirements Specification #
+
 ## 1.  Introduction ##
+---
 This project should provide a tool to run a so called "Stock Party".      
 On a "Stock Party" all the prices are calculated by demand and supply. To offer an easy and fast way to pay drinks we will realize a RFID cash system. It will be possible to charge these cards and to pay with them on the bar.      
 This webapp will implement the whole cash system and also a stock monitor aswell as an admin panel. Furthermore there will be a alcohol sensor where the party guest can measure there alcohol level. To provide an interface for the RFID reader there will be a JS Driver developed which communicates with our node.js web client.      
 There might be a feature to commuincate with other stock partys which happen at the same time and to concurrent with them. 
 
 ## 1.1  Purpose ##
+---
 ### Desktop-Application ###
 The desktop-application includes following sub-applications.
 
@@ -89,23 +111,29 @@ Only sell alcohol to persons that are over 16/18 (*detection via RFID card ID*)
 Communicate with other **Stock Party**'s that happen at the same time       
 
 ## 1.2 Scope ##
+---
 [Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
      
 ## 1.3  Definitions, Acronyms and Abbreviations ##
+---
 **RFID** = Radio Frequency Identification    
      
 ## 1.4  References ##
+---
 [Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
      
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
      
 ## 1.5 Overview ##
+---
 This SRS gives an overview of our project "**Stock-Party**" which includes goals, required features and technologies being used.     
      
 ## 2.  Overall Description ##
+---
 Here the Use-Case-Model is described and the requirements are specified.    
      
 ## 2.1 Use-Case Model Survey ##
+---
 The Use-Case-Model contains two systems: **See 1.1**!         
      
 [Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
@@ -113,6 +141,7 @@ The Use-Case-Model contains two systems: **See 1.1**!
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
      
 ## 2.2 Assumptions and Dependencies ##
+---
 • node.JS   
 • JavaScript    
 • C    
@@ -121,15 +150,94 @@ The Use-Case-Model contains two systems: **See 1.1**!
      
 
 ## 3. Specific Requirements ##
+---
 [StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)      
      
-## 3.1 Use-Case Reports ##
+     
+## 3.1 Functionality ##
+---
 [Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
      
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
      
+## 3.2 Usability ##
+---
+## 3.3 Reliability ##
+---
+## 3.4 Performance ##
+---
+## 3.5 Supportability ##
+---
+## 3.6 Design Constrains ##
+---
+**Technologies**    
+JavaScript   
+RFID      
+Arduino 
+
+**Frameworks & Compiler**   
+Angular.js   
+Node.js   
+Socket.io
+node-webkit
+
+**Development Tools**    
+Adobe Brackets / Edge Code CC    
+Adobe Photoshop CC 2014    
+Adobe Illustator CC 2014   
+Adobe Inspect CC 2014    
+JetBrains Webstorm   
+Cyberduck   
+Bitbucket   
+Webbrowser (*Safari / Chrome*)   
+
+
+
+  
+## 3.7 On-Line User Documentation and Help System Requirements ##
+---
+There will be a FAQ and a help section for users and a small guide for party administators. 
+## 3.8 Purchase Components ##
+---
+RFID-Reader - 13€ (2x)   
+RFID-Cards - 0.62€ (10x)    
+Versandkosten - 3€    
+     
+## 3.9 Interfaces ##
+---
+### 3.9.1 User Interfaces  ###
+
+Coming soon    
+### 3.9.2 Hardware ###
+Coming soon   
+### 3.9.3 Software ###
+Coming soon
+### 3.9.4 Communication ###
+Coming soon   
+## 3.10 Licensing Requirements ##
+Coming soon
+    
+## 3.11 Legal, Copyright and Other Notices ##
+---
+**Copyright 2014 Unverschämt.**    
+Our project is hosted by bitbucket.org.    
+It is licensed under the GNU Affero General Public License (AGPL) v3   
+*for more Information: (http://www.gnu.org/licenses/agpl-3.0.html)*      
+   
+###3.11.1 Dependencies###
+
+Our dependencies are free and allow commercial usage: 
+      
+**Node.js**   
+https://raw.githubusercontent.com/joyent/node/v0.10.32/LICENSE
+##3.12 Applicable Standards ##
+---
+The whole project will adhere stricty to HTML5 Standards.
+Also it will be available on all operating systems due to browser compatibility and we plan to add a internationalization to support both a German and an English version.
+    
 
 ## 3.2 Supplementary Requirements ##
+---
 Modular-architecture    
 API for everything     
 Simplified design     
@@ -139,3 +247,6 @@ Using an optimized [database schema](https://bitbucket.org/stockings/projectmana
           
              
 ## 4. Supporting Information ##
+---
+Check our repository:
+[Repository](https://bitbucket.org/stockings/projectmanagement/) or our [Blog](https://blog.unverschaemt.net/) if you have more questions.
