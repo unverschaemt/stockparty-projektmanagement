@@ -117,12 +117,15 @@ Communicate with other **Stock Party**'s that happen at the same time
 ## 1.3  Definitions, Acronyms and Abbreviations ##
 ---
 **RFID** = Radio Frequency Identification    
+**UX** = User Experience
+
      
 ## 1.4  References ##
 ---
-[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
-     
+[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)        
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
+[StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)   
+[database schema](https://bitbucket.org/stockings/projectmanagement/src/master/databaseSchema.pdf)   
      
 ## 1.5 Overview ##
 ---
@@ -136,8 +139,7 @@ Here the Use-Case-Model is described and the requirements are specified.
 ---
 The Use-Case-Model contains two systems: **See 1.1**!         
      
-[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
-     
+[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)     
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
      
 ## 2.2 Assumptions and Dependencies ##
@@ -156,18 +158,31 @@ The Use-Case-Model contains two systems: **See 1.1**!
      
 ## 3.1 Functionality ##
 ---
-[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
-     
+[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)      
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
      
 ## 3.2 Usability ##
 ---
+**Browser**
+The application runs in a browser which is common to nearly all users. We also try to provide a great UX so it will be easy for the users to use our software.
+
+**Smartphone App**
+As an addition we provide a smartphone application for the party guests. Most of the people today are used to work with smartphone applications.
+
+**Internationalization**
+The application will be both english and german which provides a great way for all users to understand the content of our software.
+
 ## 3.3 Reliability ##
 ---
+The server is hosted by 1&1, one of the main companies in Germany when it comes to hosting. Therefore we expect a good uptime of our servers.
+
+Thanks to the detailed documentation we also will provide high quality code which leads to a software with less bugs and therefore with a great reliability.
 ## 3.4 Performance ##
 ---
+Our requirement concerning the performance of our application is that no user recognizes any latency of our application. That means we don't accept any latency longer than 100 Milliseconds. (Except Internet Connections)
 ## 3.5 Supportability ##
 ---
+NodeJS and Javascript in general are standards in the web development. Because of that long term support is promised.
 ## 3.6 Design Constrains ##
 ---
 **Technologies**    
@@ -248,5 +263,35 @@ Using an optimized [database schema](https://bitbucket.org/stockings/projectmana
              
 ## 4. Supporting Information ##
 ---
-Check our repository:
-[Repository](https://bitbucket.org/stockings/projectmanagement/) or our [Blog](https://blog.unverschaemt.net/) if you have more questions.
+Check our [Repository](https://bitbucket.org/stockings/projectmanagement/) or our [Blog](https://blog.unverschaemt.net/) if you have more questions.   
+  
+
+1. **Introduction**         
+1.1 Purpose     
+1.2 Scope     
+1.3 Definitions, Acronyms and Abbreviations      
+1.4 References     
+1.5 Overview     
+2. **Overall Description**    
+2.1 Use-Case Model Survey          
+2.2 Assumptions and Dependencies       
+3. **Specific Requirements**     
+3.1 Functionality   
+3.2 Usability   
+3.3 Reliability   
+3.4 Performance   
+3.5 Supportability   
+3.6 Design Constrains   
+3.7 On-Line User Documentation and Help System Requirements    
+3.8 Purchase Components   
+3.9 **Interfaces**   
+3.9.1 *User Interfaces*    
+3.9.2 *Hardware*   
+3.9.3 *Software*    
+3.9.4 *Communication*    
+3.10 Licensing Requirements
+3.11 Legal, Copyright and Other Notices    
+3.11.1 *Dependencies*  
+3.12 Applicable Standards   
+3.2 Supplementary Requirements    
+4. **Supporting Information**
