@@ -24,13 +24,14 @@ Check this file's history directly on Bitbucket.
 2.2 Assumptions and Dependencies       
 3. **Specific Requirements**     
 3.1 Use-Case Reports     
-3.2 Supplementary Requirements      
+3.2 Supplementary Requirements    
+4. Supporting Information
 
 
 # Software Requirements Specification #
 ## 1.  Introduction ##
 This project should provide a tool to run a so called "Stock Party".      
-On a "Stock Party" all the prices are calculated by demand and supply. To offer a easy and fast way to pay drinks we will realize a RFID cash system. It will be possible to charge these cards and to pay with them on the bar.      
+On a "Stock Party" all the prices are calculated by demand and supply. To offer an easy and fast way to pay drinks we will realize a RFID cash system. It will be possible to charge these cards and to pay with them on the bar.      
 This webapp will implement the whole cash system and also a stock monitor aswell as an admin panel. Furthermore there will be a alcohol sensor where the party guest can measure there alcohol level. To provide an interface for the RFID reader there will be a JS Driver developed which communicates with our node.js web client.      
 There might be a feature to commuincate with other stock partys which happen at the same time and to concurrent with them. 
 
@@ -107,7 +108,7 @@ Here the Use-Case-Model is described and the requirements are specified.
 ## 2.1 Use-Case Model Survey ##
 The Use-Case-Model contains two systems: **See 1.1**!         
      
-[Use Case Reort](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
+[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
      
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
      
@@ -123,7 +124,7 @@ The Use-Case-Model contains two systems: **See 1.1**!
 [StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)      
      
 ## 3.1 Use-Case Reports ##
-[Use Case Reort](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
+[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)    
      
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
      
@@ -134,3 +135,7 @@ API for everything
 Simplified design     
 Gamification    
 Using an optimized [database schema](https://bitbucket.org/stockings/projectmanagement/src/master/databaseSchema.pdf)     
+      
+          
+             
+## 4. Supporting Information ##
