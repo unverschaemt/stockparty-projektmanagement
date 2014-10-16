@@ -1,0 +1,25 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1404" measuredH="751" mockupW="1157" mockupH="751" productName="Balsamiq Mockups for Google Drive">
+  <controls>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="247" y="0" w="1157" h="751" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0AadminConsole</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextInput" x="656" y="182" w="95" h="-1" measuredW="51" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>******</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="780" y="182" w="-1" h="-1" measuredW="54" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>adminConsole%26bm%3BadminConsole.bmml%26bm%3BadminConsole.bmml%26bm%3BadminConsole.bmml</href>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="656" y="134" w="95" h="-1" measuredW="76" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Please%20Login</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
