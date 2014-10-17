@@ -263,7 +263,7 @@ Using an optimized [database schema](https://bitbucket.org/stockings/projectmana
              
 ## 4. Supporting Information ##
 ---
-Check our [Repository](https://bitbucket.org/stockings/projectmanagement/) or our [Blog](https://blog.unverschaemt.net/) if you have more questions.   
+Check our [Repository](https://bitbucket.org/stockings/projectmanagement/) or our [Blog](http://blog.unverschaemt.net/) if you have more questions.   
   
 
 1. **Introduction**         
