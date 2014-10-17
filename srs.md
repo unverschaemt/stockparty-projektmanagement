@@ -150,6 +150,10 @@ The Use-Case-Model contains two systems: **See 1.1**!
 • C    
 • RFID     
 • Socket.IO    
+• Mocha    
+• JIRA    
+• Bamboo    
+• BitBucket    
      
 
 ## 3. Specific Requirements ##
@@ -196,7 +200,8 @@ Arduino
 Angular.js   
 Node.js   
 Socket.io
-node-webkit
+node-webkit    
+Mocha    
 
 **Development Tools**    
 Adobe Brackets / Edge Code CC    
@@ -206,7 +211,9 @@ Adobe Inspect CC 2014
 JetBrains Webstorm   
 Cyberduck   
 Bitbucket   
-Webbrowser (*Safari / Chrome*)   
+Webbrowser (*Safari / Chrome*)
+JIRA    
+Bamboo    
 
 
 
