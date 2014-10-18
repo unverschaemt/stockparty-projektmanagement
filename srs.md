@@ -10,7 +10,7 @@
 ## Revision History ##
 ----
 Check this file's history directly on Bitbucket.     
-[SRS Revision History](https://bitbucket.org/stockings/projectmanagement/history-node/92b227729475/srs.md?at=master)
+[SRS Revision History](https://bitbucket.org/stockings/projectmanagement/history-node/master/srs.md)
 
 
 
