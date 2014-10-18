@@ -165,17 +165,20 @@ The Use-Case-Model contains two systems: **See 1.1**!
 ---
 [Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)      
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
+    
+    
+**Use Case Specifications**    
 [Add/Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addRemoveDrinks.md)    
      
 ## 3.2 Usability ##
 ---
-**Browser**
+**Browser**    
 The application runs in a browser which is common to nearly all users. We also try to provide a great UX so it will be easy for the users to use our software.
 
-**Smartphone App**
+**Smartphone App**    
 As an addition we provide a smartphone application for the party guests. Most of the people today are used to work with smartphone applications.
 
-**Internationalization**
+**Internationalization**    
 The application will be both english and german which provides a great way for all users to understand the content of our software.
 
 ## 3.3 Reliability ##
