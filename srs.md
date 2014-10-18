@@ -214,7 +214,7 @@ Adobe Inspect CC 2014
 JetBrains Webstorm   
 Cyberduck   
 Bitbucket   
-Webbrowser (*Safari / Chrome*)
+Webbrowser (*Safari / Chrome*)    
 JIRA    
 Bamboo    
 
