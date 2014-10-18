@@ -5,14 +5,6 @@
  
 *Version 1.0*   
     
- 
-
-## Revision History ##
-----
-Check this file's history directly on Bitbucket.     
-[Add / Remove Drinks Revision History](https://bitbucket.org/stockings/projectmanagement/history-node/92b227729475/srs.md?at=master)
-
-
 
 ## Table of Contents ##
 ---
