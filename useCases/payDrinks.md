@@ -43,7 +43,7 @@ When no RFID reader is connected to the cash panel, the drinks can be ordered ma
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-[FLOWNAME](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/payDrinks.pdf)     
+[Pay Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/payDrinksFlow.pdf)     
 
 ### 2.2 Alternative Flow ###
 ---
