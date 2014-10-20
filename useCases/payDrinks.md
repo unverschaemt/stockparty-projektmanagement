@@ -18,9 +18,9 @@
 3. **Special Requirements**    
 3.1 Usability              
 4. **Preconditions**        
-4.1 RFID card is recognized
-4.2 There are drinks in the system
-4.3 "shopping basket" shouldn't be empty
+4.1 RFID card is recognized     
+4.2 There are drinks in the system     
+4.3 "shopping basket" shouldn't be empty     
 5. **Postconditions**     
 5.1 Drink is bought
 6. **Extension Points**
