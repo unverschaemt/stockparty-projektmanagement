@@ -170,6 +170,8 @@ The Use-Case-Model contains two systems: **See 1.1**!
 **Use Case Specifications**    
 [Add/Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addRemoveDrinks.md)    
 [Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)    
+[Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)    
+
      
 ## 3.2 Usability ##
 ---
