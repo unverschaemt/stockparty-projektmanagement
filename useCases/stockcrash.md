@@ -35,7 +35,7 @@ stockcrash
 A stock crash means the prices of all drinks reach the minimum price of the drink. A stock crash can be fired in the adminconsole.   
 ### 1.2  MockUp ###
 ---
-![MockUp](BILDLINK)
+![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageDrinks.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
