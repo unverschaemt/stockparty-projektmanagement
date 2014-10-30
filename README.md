@@ -9,7 +9,7 @@ Stock party is a system to run an innovative party according to the world stock 
 
 ** [UCS](fhttps://bitbucket.org/stockings/projectmanagement/src/master/srs.md#markdown-header-31-functionality)**    
 
-**[Cucumber Narrations]**    
+**Cucumber Narrations**    
 [Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md#markdown-header-21-basic-flow)    
 [Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md#markdown-header-21-basic-flow)    
 
