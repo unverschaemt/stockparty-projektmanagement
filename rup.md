@@ -33,13 +33,13 @@ Check this file's history directly on Bitbucket.
 ---
 In our project we are using a MVW (Model View Whatever) model. Whatever describes a complex constellation of different controllers and models an client and server side. To get an overview to this architecture you should have a look on:
 
-MVC.html    
+[MVC Overview](http://unverschaemt.net/stockparty/MVC.html)   
 
 Detailed server-side UML Diagram:     
-Class Diagram.html    
+[UML Class Diagram Server](http://unverschaemt.net/stockparty/Class%20Diagram.html)    
 
 Detailed client-side UML Diagram:    
-Class Diagram Client.html    
+[UML Class Diagram Client](http://unverschaemt.net/stockparty/Class%20Diagram%20Client.html)     
 
 
 ## 3. Architectural Goals and Constraints ## 
