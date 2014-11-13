@@ -32,9 +32,14 @@ Check this file's history directly on Bitbucket.
 ## 2. Architectural Representation ##    
 ---
 In our project we are using a MVW (Model View Whatever) model. Whatever describes a complex constellation of different controllers and models an client and server side. To get an overview to this architecture you should have a look on:
-MVC.html
-Detailed server-side UML Diagram: Class Diagram.html
-Detailed client-side UML Diagram: Class Diagram Client.html
+
+MVC.html    
+
+Detailed server-side UML Diagram:     
+Class Diagram.html    
+
+Detailed client-side UML Diagram:    
+Class Diagram Client.html    
 
 
 ## 3. Architectural Goals and Constraints ## 
