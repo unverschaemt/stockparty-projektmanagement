@@ -163,6 +163,11 @@ The Use-Case-Model contains two systems: **See 1.1**!
      
 ## 3.1 Functionality ##
 ---
+
+[UML Class Diagram Server](http://unverschaemt.net/stockparty/Class%20Diagram.html)
+[UML Class Diagram Client](http://unverschaemt.net/stockparty/Class%20Diagram%20Client.html)
+
+
 [Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)      
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
     
