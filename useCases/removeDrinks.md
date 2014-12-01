@@ -39,7 +39,7 @@ In the settings of the adminconsole drinks can be removed. Removed drinks are no
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/90be2c8d8f7ec48bb99f141774a77c4ea28cd397/useCases/removeDrinkFlow.jpg)     
+![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/removeDrinkFlow.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---

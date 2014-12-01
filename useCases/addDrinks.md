@@ -45,11 +45,11 @@ A drink has the following attributes:
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/90be2c8d8f7ec48bb99f141774a77c4ea28cd397/useCases/addDrinkFlow.jpg)     
+![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkFlow.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---
-![Alternative Flow](https://bytebucket.org/stockings/projectmanagement/raw/90be2c8d8f7ec48bb99f141774a77c4ea28cd397/useCases/addDrinkAlternativeFlow.jpg)    
+![Alternative Flow](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkAlternativeFlow.jpg)    
 
 ## 3. Tests ##
 ![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkNarrative.jpg)
