@@ -127,7 +127,11 @@ Communicate with other **Stock Party**'s that happen at the same time
 [StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)   
 [database schema](https://bitbucket.org/stockings/projectmanagement/src/master/databaseSchema.pdf)   
 [Add Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addDrinks.md)   
-[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md) 
+[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md)
+[Choose Client](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/chooseClient.md)
+[Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)    
+[Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)   
+
      
 ## 1.5 Overview ##
 ---
@@ -177,7 +181,8 @@ The Use-Case-Model contains two systems: **See 1.1**!
 [Add Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addDrinks.md)   
 [Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md)   
 [Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)    
-[Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)    
+[Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)   
+[Choose Client](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/chooseClient.md)
 
      
 ## 3.2 Usability ##
