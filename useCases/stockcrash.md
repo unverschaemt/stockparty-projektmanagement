@@ -41,11 +41,11 @@ A stock crash means the prices of all drinks reach the minimum price of the drin
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![enable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/enableStockcrashFlow.jpg)     
+![enable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/enableStockcrash.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---
-![disable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/disableStockcrashFlow.jpg)     
+![disable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/disableStockcrash.jpg)     
     
 ## 3. Tests ##
 
