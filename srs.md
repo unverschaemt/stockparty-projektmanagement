@@ -126,7 +126,8 @@ Communicate with other **Stock Party**'s that happen at the same time
 [Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)    
 [StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)   
 [database schema](https://bitbucket.org/stockings/projectmanagement/src/master/databaseSchema.pdf)   
-[Add/Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addRemoveDrinks.md)   
+[Add Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addDrinks.md)   
+[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md) 
      
 ## 1.5 Overview ##
 ---
@@ -173,7 +174,8 @@ The Use-Case-Model contains two systems: **See 1.1**!
     
     
 **Use Case Specifications**    
-[Add/Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addRemoveDrinks.md)    
+[Add Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addDrinks.md)   
+[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md)   
 [Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)    
 [Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)    
 
