@@ -187,22 +187,6 @@
     </node>
     <node id="n10">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="40.0" width="156.0" x="191.0" y="899.4969482421877"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="127.416015625" x="14.2919921875" y="10.6494140625">Drink has been deleted<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n11">
-      <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="49.0" width="168.0" x="867.0" y="741.9938964843755"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
@@ -217,13 +201,29 @@
         </y:GenericNode>
       </data>
     </node>
-    <node id="n12">
+    <node id="n11">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="49.0" width="168.0" x="867.0" y="896.9969482421877"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="119.39453125" x="24.302734375" y="15.1494140625">update drinkObserver<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.userMessage">
+          <y:Geometry height="40.0" width="156.0" x="191.0" y="899.4969482421877"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="127.416015625" x="14.2919921875" y="10.6494140625">Drink has been deleted<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -255,7 +255,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n4" target="n10">
+    <edge id="e2" source="n4" target="n12">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -266,7 +266,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n10" target="n2">
+    <edge id="e3" source="n12" target="n2">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -277,7 +277,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n10" target="n9">
+    <edge id="e4" source="n12" target="n9">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -288,7 +288,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n3" target="n11">
+    <edge id="e5" source="n3" target="n10">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -299,7 +299,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e6" source="n11" target="n12">
+    <edge id="e6" source="n10" target="n11">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -310,7 +310,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e7" source="n12" target="n4">
+    <edge id="e7" source="n11" target="n4">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
