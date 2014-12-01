@@ -12,10 +12,10 @@
 1. **Pay Drinks**         
 1.1 Brief Description     
 1.2 MockUp       
-2. Flow of Events    
+2. **Flow of Events**    
 2.1 Basic Flow     
 2.2 Alternative Flows   
-3. Tests
+3. **Tests**
 4. **Special Requirements**    
 4.1 Usability              
 5. **Preconditions**        
