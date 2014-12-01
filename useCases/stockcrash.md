@@ -12,16 +12,17 @@
 1. **stockcrash**         
 1.1 Brief Description     
 1.2 MockUp       
-2. Flow of Events    
+2. **Flow of Events**    
 2.1 Basic Flow     
-2.2 Alternative Flows    
-3. **Special Requirements**    
-3.1 Usability              
-4. **Preconditions**        
-4.1 active party     
-5. **Postconditions**     
-5.1 prices should change
-6. **Extension Points**
+2.2 Alternative Flows
+3. **Tests**
+4. **Special Requirements**    
+4.1 Usability              
+5. **Preconditions**        
+5.1 active party     
+6. **Postconditions**     
+6.1 prices should change
+7. **Extension Points**
 
 
 # Use Case Specification stockcrash #
@@ -40,33 +41,34 @@ A stock crash means the prices of all drinks reach the minimum price of the drin
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-[enable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/enableStockcrashFlow.pdf)     
-
-![Gherkin](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/stockCrashNarrative.JPG)
+![enable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/enableStockcrash.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---
-[disable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/disableStockcrashFlow.pdf)     
+![disable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/disableStockcrash.jpg)     
     
-## 3. Special Requirements ##
-### 3.1 Usability ###
+## 3. Tests ##
+
+![Gherkin](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/stockCrashNarrative.JPG)
+
+## 4. Special Requirements ##
+### 4.1 Usability ###
 ---
 The user should enable and disable a stock crash easily.
 
-## 4. Preconditions ##
+## 5. Preconditions ##
 ---
 
-### 4.1 active party ###
+### 5.1 active party ###
 ---
 The party should run. Otherwise a stock crash makes no sense.
 
-## 5. Postconditions ##
-### 5.1 prices should change ###
+## 6. Postconditions ##
+### 6.1 prices should change ###
 ---
 
 If the stock crash is enabled by the user, all prices should fall to their lowest reachable price with the next refresh intervall. If the stock crash is disabled, the prices should fall and grow calculated by the specific algorithm.
 
-## 6. Extension Points ##
+## 7. Extension Points ##
 ---
 n/a
-    
