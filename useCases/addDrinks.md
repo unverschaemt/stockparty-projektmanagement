@@ -52,7 +52,7 @@ A drink has the following attributes:
 ![Alternative Flow](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkAlternativeFlow.jpg)    
 
 ## 3. Tests ##
-![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkNarrative.jpg)
+![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkNarrative.JPG)
     
 ## 4. Special Requirements ##
 ### 4.1 Usability ###
