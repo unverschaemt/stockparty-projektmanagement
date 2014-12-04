@@ -127,9 +127,9 @@ Communicate with other **Stock Party**'s that happen at the same time
 [StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)   
 [database schema](https://bitbucket.org/stockings/projectmanagement/src/master/databaseSchema.pdf)   
 [Add Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addDrinks.md)   
-[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md)
-[Choose Client](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/chooseClient.md)
-[Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)    
+[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md)   
+[Choose Client](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/chooseClient.md)   
+[Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)   
 [Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)   
 
      
@@ -243,7 +243,7 @@ There will be a FAQ and a help section for users and a small guide for party adm
 ---
 RFID-Reader - 13€ (2x)   
 RFID-Cards - 0.62€ (10x)    
-Versandkosten - 3€    
+Shipping - 3€    
      
 ## 3.9 Interfaces ##
 ---
