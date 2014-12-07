@@ -31,6 +31,3 @@ A issue tracker for our clients is integrated in Jira.
 
 **Blog**    
 Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)
-
-**Network Plan**    
-Visit [draw.io](https://drive.google.com/file/d/0B7nNErk0bX8_MlBIQ3BqTVRIeTg/view?usp=sharing)
