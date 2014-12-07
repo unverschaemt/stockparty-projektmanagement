@@ -19,11 +19,11 @@
 4. **Special Requirements**    
 4.1 Usability              
 5. **Preconditions**        
-5.1 RFID card is recognized     
-5.2 There are drinks in the system     
-5.3 "shopping basket" shouldn't be empty     
+5.1 Connection was successful    
+5.2 Login was successful     
+5.3 There are clients configured in config  
 6. **Postconditions**     
-6.1 Drink is bought
+6.1 Client is chosen
 7. **Extension Points**
 
 
@@ -43,14 +43,14 @@ After establishing a connection and entering the correct user login the user nee
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Pay Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/chooseClientFlow.jpg)  
+![Choose Client](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/chooseClientFlow.jpg)  
 
 ### 2.2 Alternative Flow ###
 ---
 n/a    
 
 ## 3. Tests
-![Pay Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/chooseClientNarrative.png)
+![Choose Client](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/chooseClientNarrative.png)
     
 ## 4. Special Requirements ##
 ### 4.1 Usability ###
