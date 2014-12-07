@@ -24,7 +24,7 @@ Here you can also find our UML class diagramms for server and client side and an
 ** [Jira Project](http://jira.it.dh-karlsruhe.de:8080/browse/STOC)**   
 A issue tracker for our clients is integrated in Jira.
    
-** [SCRUM Board](http://jira.it.dh-karlsruhe.de:8080/secure/RapidBoard.jspa?rapidView=83&view=reporting&chart=burndownChart&sprint=339)**   
+** [Burndown Chart](http://jira.it.dh-karlsruhe.de:8080/secure/RapidBoard.jspa?rapidView=83&view=reporting&chart=burndownChart&sprint=339)**   
   
 
      
