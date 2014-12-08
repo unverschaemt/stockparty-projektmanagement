@@ -25,9 +25,11 @@ Here you can also find our UML class diagramms for server and client side and an
 A issue tracker for our clients is integrated in Jira.
    
 ** [Burndown Chart](http://jira.it.dh-karlsruhe.de:8080/secure/RapidBoard.jspa?rapidView=83&view=reporting&chart=burndownChart&sprint=339)**   
-  
 
      
 
 **Blog**    
-Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)
+Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)   
+
+**Presentation**
+[Presentation](https://bytebucket.org/stockings/projectmanagement/raw/master/StockPartyPresentation.pdf)   
