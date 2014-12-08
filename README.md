@@ -31,5 +31,5 @@ A issue tracker for our clients is integrated in Jira.
 **Blog**    
 Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)   
 
-**Presentation**
-[Presentation](https://bytebucket.org/stockings/projectmanagement/raw/master/StockPartyPresentation.pdf)   
+**Presentation**   
+[Presentation](https://bytebucket.org/stockings/projectmanagement/raw/master/StockPartyPresentation.pdf)
