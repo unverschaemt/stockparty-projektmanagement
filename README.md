@@ -15,11 +15,11 @@ You can find the links to our cucumber narrations in our Use Case Specifications
 ** [RUP Software Architecture](https://bitbucket.org/stockings/projectmanagement/src/master/rup.md)**   
 Here you can also find our UML class diagramms for server and client side and an overview diagram of our MVC model.
     
-** [GIT Source Code Repository (Main Software Part)](https://bitbucket.org/stockings/stockparty)**   
+** [GIT Source Code Repository (Main Software Part)](https://github.com/unverschaemt/stockparty)**   
     
-** [GIT Source Code Repository (Alcohol Sensor Software)](https://bitbucket.org/stockings/stockparty-arduino)**   
+** [GIT Source Code Repository (Alcohol Sensor Software)](https://github.com/unverschaemt/stockparty-arduino)**   
     
-** [GIT Projectmanagement Repository](https://bitbucket.org/stockings/projectmanagement)**   
+** [GIT Projectmanagement Repository](https://github.com/unverschaemt/stockparty-projektmanagement)**   
     
 ** [Jira Project](http://jira.it.dh-karlsruhe.de:8080/browse/STOC)**   
 A issue tracker for our clients is integrated in Jira. (Please log in first)
