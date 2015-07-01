@@ -104,7 +104,7 @@ Communicate with other **Stock Party**'s that happen at the same time
 
 ## 1.2 Scope ##
 ---
-[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)
+[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)
 
 ## 1.3  Definitions, Acronyms and Abbreviations ##
 ---
@@ -114,19 +114,20 @@ Communicate with other **Stock Party**'s that happen at the same time
 
 ## 1.4  References ##
 ---
-[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)
-[Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.pdf)
+[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)
+[Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.pdf)
 [StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)
-[database schema](https://bitbucket.org/stockings/projectmanagement/src/master/databaseSchema.pdf)
-[Add Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addDrinks.md)
-[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md)
-[Choose Client](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/chooseClient.md)
-[Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)
-[Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)
-[Enable Party](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/enableParty.md)
-[Loading Of Cards](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/loadingOfCards.md)
-[Manage Hardware Interfaces](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/manageHardwareInterfaces.md)
-[Show Graph](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/showGraph.md)
+[database schema](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/databaseSchema.pdf)
+[Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinks.md)
+[Remove Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinks.md)
+[Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClient.md)
+[Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinks.md)
+[Stock Crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/stockcrash.md)
+[Enable Party](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enableParty.md)
+
+[Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.md)
+[Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.md)
+[Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.md)
 
 
 ## 1.5 Overview ##
@@ -141,8 +142,8 @@ Here the Use-Case-Model is described and the requirements are specified.
 ---
 The Use-Case-Model contains two systems: **See 1.1**!
 
-[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)
-[Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.png)
+[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)
+[Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.png)
 
 ## 2.2 Assumptions and Dependencies ##
 ---
@@ -169,20 +170,20 @@ The Use-Case-Model contains two systems: **See 1.1**!
 [UML Class Diagram Client](http://unverschaemt.net/stockparty/Class%20Diagram%20Client.html)
 
 
-[Use Case Report](https://bitbucket.org/stockings/projectmanagement/src/master/useCaseReport.pdf)
-[Use Cases](https://bitbucket.org/stockings/projectmanagement/src/master/useCases.png)
+[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)
+[Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.png)
 
 
 **Use Case Specifications**
-[Add Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/addDrinks.md)
-[Remove Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/removeDrinks.md)
-[Pay Drinks](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/payDrinks.md)
-[Stock Crash](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/stockcrash.md)
-[Choose Client](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/chooseClient.md)
-[Enable Party](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/enableParty.md)
-[Loading Of Cards](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/loadingOfCards.md)
-[Manage Hardware Interfaces](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/manageHardwareInterfaces.md)
-[Show Graph](https://bitbucket.org/stockings/projectmanagement/src/master/useCases/showGraph.md)
+[Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinks.md)
+[Remove Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinks.md)
+[Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinks.md)
+[Stock Crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/stockcrash.md)
+[Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClient.md)
+[Enable Party](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enableParty.md)
+[Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.md)
+[Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.md)
+[Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.md)
 
 
 ## 3.2 Usability ##
@@ -284,7 +285,7 @@ Modular-architecture
 API for everything
 Simplified design
 Gamification
-Using an optimized [database schema](https://bitbucket.org/stockings/projectmanagement/src/master/databaseSchema.pdf)
+Using an optimized [database schema](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/databaseSchema.pdf)
 
 
 

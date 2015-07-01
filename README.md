@@ -1,18 +1,18 @@
 # README #
 Stock party is a system to run an innovative party according to the world stock exchange system. So that the price per drink is managed based on demand and supply. It manages the payment of drinks and shows the quotation in realtime.    
     
-** [Project Vision](https://bitbucket.org/stockings/projectmanagement/src/master/vision.md)**   
+** [Project Vision](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/vision.md)**   
     
-** [Software Requirement Specification SRS](https://bitbucket.org/stockings/projectmanagement/src/master/srs.md)**   
+** [Software Requirement Specification SRS](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md)**   
   
-** [Use Case Specifications UCS](https://bitbucket.org/stockings/projectmanagement/src/master/srs.md#markdown-header-31-functionality)**   
+** [Use Case Specifications UCS](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md#markdown-header-31-functionality)**   
   
-** [Functional Tests (Cucumber Tests)](https://bitbucket.org/stockings/projectmanagement/src/master/srs.md#markdown-header-31-functionality)**     
+** [Functional Tests (Cucumber Tests)](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md#markdown-header-31-functionality)**     
 You can find the links to our cucumber narrations in our Use Case Specifications.
   
 ** [Lifecycle Process Open Project](http://op.it.dh-karlsruhe.de/projects/stockparty)**   
   
-** [RUP Software Architecture](https://bitbucket.org/stockings/projectmanagement/src/master/rup.md)**   
+** [RUP Software Architecture](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/rup.md)**   
 Here you can also find our UML class diagramms for server and client side and an overview diagram of our MVC model.
     
 ** [GIT Source Code Repository (Main Software Part)](https://github.com/unverschaemt/stockparty)**   
