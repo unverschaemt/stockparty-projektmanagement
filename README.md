@@ -32,4 +32,4 @@ A issue tracker for our clients is integrated in Jira. (Please log in first)
 Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)   
 
 **Presentation**   
-[Presentation](https://bytebucket.org/stockings/projectmanagement/raw/master/StockPartyPresentation.pdf)
+[Presentation](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/StockPartyPresentation.pdf)

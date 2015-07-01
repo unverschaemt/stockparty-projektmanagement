@@ -36,19 +36,19 @@ with a projector for example.
 
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/showGraph.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Show Graph](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/showGraph.jpg)
+![Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.jpg)
 
 ### 2.2 Alternative Flow ###
 ---
 n/a  
 
 ## 3. Tests ##
-![Show Graph](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/showGraphNarrative.JPG)
+![Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraphNarrative.JPG)
 
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

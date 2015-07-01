@@ -34,19 +34,19 @@ In the settings of the adminconsole drinks can be removed. Removed drinks are no
    
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageDrinks.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageDrinks.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/removeDrinkFlow.jpg)     
+![Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinkFlow.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---
 n/a
 
 ## 3. Tests ##
-![Gherkin](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/removeDrinkNarrative.jpg)
+![Gherkin](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinkNarrative.jpg)
     
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

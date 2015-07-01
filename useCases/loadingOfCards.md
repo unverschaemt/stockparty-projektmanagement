@@ -33,19 +33,19 @@ Loading Of Cards
 In the cashpanel it should be possible to load the cards of guests. Otherwise they could not pay drinks with the cards.
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/loadingOfCards.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Loading Of Cards](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/loadingOfCards.jpg)
+![Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.jpg)
 
 ### 2.2 Alternative Flow ###
 ---
 n/a
 
 ## 3. Tests ##
-![Loading Of Cards](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/loadingOfCardsNarrative.JPG)
+![Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCardsNarrative.JPG)
 
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

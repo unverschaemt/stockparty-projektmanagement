@@ -38,19 +38,19 @@ Pay Drinks
 Drinks can be bought at a cash panel. At a party there can be several cash panels. Each drink which is bought has to be recognized in the system. When an RFID reader is connected to the cash panel a dialogue pops up, when the RFID reader recognizes an RFID card. At this point the current stock prices of the drinks will be paid. In the dialogue drinks can be selected. The customer does not pay at the cash panel. The drinks he buys are saved to the database.  
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/cashregister.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/cashregister.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Pay Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/payDrinksFlow.jpg)  
+![Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinksFlow.jpg)  
 
 ### 2.2 Alternative Flow ###
 ---
 n/a    
 
 ## 3. Tests
-![Pay Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/payDrinksNarrative.jpg)
+![Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinksNarrative.jpg)
     
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

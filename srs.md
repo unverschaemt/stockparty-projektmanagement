@@ -3,48 +3,48 @@
 ## Software Requirements Specification ##
 #### For node.JS / node-webkit / RFID ####
 
-*Version 1.0*
+*Version 2.2*
 
 
 
 ## Revision History ##
 ----
-Check this file's history directly on Bitbucket.
-[SRS Revision History](https://bitbucket.org/stockings/projectmanagement/history-node/master/srs.md)
+Check this file's history directly on Github.
+[SRS Revision History](https://github.com/unverschaemt/stockparty-projektmanagement/commits/master/srs.md)
 
 
 
 ## Table of Contents ##
 ---
-1. **Introduction**
-1.1 Purpose
-1.2 Scope
-1.3 Definitions, Acronyms and Abbreviations
-1.4 References
-1.5 Overview
-2. **Overall Description**
-2.1 Use-Case Model Survey
-2.2 Assumptions and Dependencies
-3. **Specific Requirements**
-3.1 Functionality
-3.2 Usability
-3.3 Reliability
-3.4 Performance
-3.5 Supportability
-3.6 Design Constrains
-3.7 On-Line User Documentation and Help System Requirements
-3.8 Purchase Components
-3.9 **Interfaces**
-3.9.1 *User Interfaces*
-3.9.2 *Hardware*
-3.9.3 *Software*
-3.9.4 *Communication*
-3.10 Licensing Requirements
-3.11 Legal, Copyright and Other Notices
-3.11.1 *Dependencies*  
-3.12 Applicable Standards
-3.2 Supplementary Requirements
-4. **Supporting Information**
+1. **Introduction**   
+1.1 Purpose   
+1.2 Scope   
+1.3 Definitions, Acronyms and Abbreviations   
+1.4 References   
+1.5 Overview   
+2. **Overall Description**   
+2.1 Use-Case Model Survey   
+2.2 Assumptions and Dependencies   
+3. **Specific Requirements**   
+3.1 Functionality   
+3.2 Usability   
+3.3 Reliability   
+3.4 Performance   
+3.5 Supportability   
+3.6 Design Constrains   
+3.7 On-Line User Documentation and Help System Requirements   
+3.8 Purchase Components   
+3.9 **Interfaces**   
+3.9.1 *User Interfaces*   
+3.9.2 *Hardware*   
+3.9.3 *Software*   
+3.9.4 *Communication*   
+3.10 Licensing Requirements   
+3.11 Legal, Copyright and Other Notices   
+3.11.1 *Dependencies*   
+3.12 Applicable Standards   
+3.2 Supplementary Requirements   
+4. **Supporting Information**   
 
 
 # Software Requirements Specification #
@@ -108,26 +108,26 @@ Communicate with other **Stock Party**'s that happen at the same time
 
 ## 1.3  Definitions, Acronyms and Abbreviations ##
 ---
-**RFID** = Radio Frequency Identification
+**RFID** = Radio Frequency Identification   
 **UX** = User Experience
 
 
 ## 1.4  References ##
 ---
-[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)
-[Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.pdf)
-[StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)
-[database schema](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/databaseSchema.pdf)
-[Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinks.md)
-[Remove Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinks.md)
-[Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClient.md)
-[Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinks.md)
-[Stock Crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/stockcrash.md)
+[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)   
+[Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.pdf)   
+[StockParty Network](http://s533994975.online.de/se-data/stockpartyNetwork.pdf)    
+[database schema](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/databaseSchema.pdf)   
+[Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinks.md)    
+[Remove Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinks.md)    
+[Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClient.md)    
+[Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinks.md)    
+[Stock Crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/stockcrash.md)    
 [Enable Party](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enableParty.md)
 
-[Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.md)
-[Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.md)
-[Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.md)
+[Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.md)    
+[Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.md)    
+[Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.md)      
 
 
 ## 1.5 Overview ##
@@ -142,20 +142,20 @@ Here the Use-Case-Model is described and the requirements are specified.
 ---
 The Use-Case-Model contains two systems: **See 1.1**!
 
-[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)
+[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)    
 [Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.png)
 
 ## 2.2 Assumptions and Dependencies ##
 ---
-• node.JS
-• JavaScript
-• C
-• RFID
-• Socket.IO
-• Mocha
-• JIRA
-• Bamboo
-• BitBucket
+• node.JS   
+• JavaScript   
+• C   
+• RFID   
+• Socket.IO   
+• Mocha   
+• JIRA   
+• Bamboo   
+• BitBucket   
 
 
 ## 3. Specific Requirements ##
@@ -166,24 +166,25 @@ The Use-Case-Model contains two systems: **See 1.1**!
 ## 3.1 Functionality ##
 ---
 
-[UML Class Diagram Server](http://unverschaemt.net/stockparty/Class%20Diagram.html)
+[UML Class Diagram Server](http://unverschaemt.net/stockparty/Class%20Diagram.html)   
 [UML Class Diagram Client](http://unverschaemt.net/stockparty/Class%20Diagram%20Client.html)
 
 
-[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)
-[Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.png)
+[Use Case Report](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCaseReport.pdf)   
+[Use Cases](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases.png)   
 
 
-**Use Case Specifications**
-[Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinks.md)
-[Remove Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinks.md)
-[Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinks.md)
-[Stock Crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/stockcrash.md)
-[Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClient.md)
-[Enable Party](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enableParty.md)
-[Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.md)
-[Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.md)
-[Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.md)
+**Use Case Specifications**   
+[Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinks.md)   
+[Remove Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/removeDrinks.md)   
+[Pay Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/payDrinks.md)   
+[Stock Crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/stockcrash.md)   
+[Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClient.md)   
+[Enable Party](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enableParty.md)   
+
+[Loading Of Cards](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/loadingOfCards.md)   
+[Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.md)   
+[Show Graph](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/showGraph.md)   
 
 
 ## 3.2 Usability ##
@@ -210,29 +211,29 @@ Our requirement concerning the performance of our application is that no user re
 NodeJS and Javascript in general are standards in the web development. Because of that long term support is promised.
 ## 3.6 Design Constrains ##
 ---
-**Technologies**
-JavaScript
-RFID
-Arduino
+**Technologies**   
+JavaScript   
+RFID   
+Arduino   
 
-**Frameworks & Compiler**
-Angular.js
-Node.js
-Socket.io
-node-webkit
-Mocha
+**Frameworks & Compiler**   
+Angular.js   
+Node.js   
+Socket.io   
+node-webkit   
+Mocha   
 
-**Development Tools**
-Adobe Brackets / Edge Code CC
-Adobe Photoshop CC 2014
-Adobe Illustator CC 2014
-Adobe Inspect CC 2014
-JetBrains Webstorm
-Cyberduck
-Bitbucket
-Webbrowser (*Safari / Chrome*)
-JIRA
-Bamboo
+**Development Tools**   
+Adobe Brackets / Edge Code CC   
+Adobe Photoshop CC 2014   
+Adobe Illustator CC 2014   
+Adobe Inspect CC 2014   
+JetBrains Webstorm   
+Cyberduck   
+Bitbucket   
+Webbrowser (*Safari / Chrome*)   
+JIRA   
+Bamboo   
 
 
 
@@ -242,9 +243,9 @@ Bamboo
 There will be a FAQ and a help section for users and a small guide for party administators.
 ## 3.8 Purchase Components ##
 ---
-RFID-Reader - 13€ (2x)
-RFID-Cards - 0.62€ (10x)
-Shipping - 3€
+RFID-Reader - 13€ (2x)   
+RFID-Cards - 0.62€ (10x)   
+Shipping - 3€   
 
 ## 3.9 Interfaces ##
 ---
@@ -291,35 +292,35 @@ Using an optimized [database schema](https://github.com/unverschaemt/stockparty-
 
 ## 4. Supporting Information ##
 ---
-Check our [Repository](https://bitbucket.org/stockings/projectmanagement/) or our [Blog](http://blog.unverschaemt.net/) if you have more questions.
+Check our [Repository](https://github.com/unverschaemt/stockparty-projektmanagement) or our [Blog](http://blog.unverschaemt.net/) if you have more questions.
 
 
-1. **Introduction**
-1.1 Purpose
-1.2 Scope
-1.3 Definitions, Acronyms and Abbreviations
-1.4 References
-1.5 Overview
-2. **Overall Description**
-2.1 Use-Case Model Survey
-2.2 Assumptions and Dependencies
-3. **Specific Requirements**
-3.1 Functionality
-3.2 Usability
-3.3 Reliability
-3.4 Performance
-3.5 Supportability
-3.6 Design Constrains
-3.7 On-Line User Documentation and Help System Requirements
-3.8 Purchase Components
-3.9 **Interfaces**
-3.9.1 *User Interfaces*
-3.9.2 *Hardware*
-3.9.3 *Software*
-3.9.4 *Communication*
-3.10 Licensing Requirements
-3.11 Legal, Copyright and Other Notices
-3.11.1 *Dependencies*  
-3.12 Applicable Standards
-3.2 Supplementary Requirements
-4. **Supporting Information**
+1. **Introduction**   
+1.1 Purpose   
+1.2 Scope   
+1.3 Definitions, Acronyms and Abbreviations   
+1.4 References   
+1.5 Overview   
+2. **Overall Description**   
+2.1 Use-Case Model Survey   
+2.2 Assumptions and Dependencies   
+3. **Specific Requirements**   
+3.1 Functionality   
+3.2 Usability   
+3.3 Reliability   
+3.4 Performance   
+3.5 Supportability   
+3.6 Design Constrains   
+3.7 On-Line User Documentation and Help System Requirements   
+3.8 Purchase Components   
+3.9 **Interfaces**   
+3.9.1 *User Interfaces*   
+3.9.2 *Hardware*   
+3.9.3 *Software*   
+3.9.4 *Communication*   
+3.10 Licensing Requirements   
+3.11 Legal, Copyright and Other Notices   
+3.11.1 *Dependencies*   
+3.12 Applicable Standards   
+3.2 Supplementary Requirements   
+4. **Supporting Information**   

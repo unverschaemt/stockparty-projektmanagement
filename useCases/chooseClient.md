@@ -38,19 +38,19 @@ Pay Drinks
 After establishing a connection and entering the correct user login the user needs to choose which client he wants to use. A 'client' is in our case a user interface controller which can have differnt grafical or non-grafical (console) user interfaces. The different clients need to be registered before in our config.json file. In this Use-Case the user should get a list of clients which can be chosen and should be able to choose one of them.
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/chooseClientMockUp.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClientMockUp.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Choose Client](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/chooseClientFlow.jpg)  
+![Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClientFlow.jpg)  
 
 ### 2.2 Alternative Flow ###
 ---
 n/a    
 
 ## 3. Tests
-![Choose Client](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/chooseClientNarrative.png)
+![Choose Client](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/chooseClientNarrative.png)
     
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

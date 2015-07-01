@@ -33,19 +33,19 @@ Manage Hardware Interfaces
 In the adminconsole it should be possible to select which hardware interface should belong to which client. If there is more than one bar, there should be that many RFID reader. This use case is about to choose which RFID reader belongs to which bar.
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageHardwareInterfaces.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Manage Hardware Interfaces](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageHardwareInterfaces.jpg)
+![Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfaces.jpg)
 
 ### 2.2 Alternative Flow ###
 ---
 n/a
 
 ## 3. Tests ##
-![Manage Hardware Interfaces](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageHardwareInterfacesNarrative.JPG)
+![Manage Hardware Interfaces](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageHardwareInterfacesNarrative.JPG)
 
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

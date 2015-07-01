@@ -36,20 +36,20 @@ stockcrash
 A stock crash means the prices of all drinks reach the minimum price of the drink. A stock crash can be fired in the adminconsole.   
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageDrinks.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageDrinks.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![enable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/enableStockcrash.jpg)     
+![enable stock crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enableStockcrash.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---
-![disable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/disableStockcrash.jpg)     
+![disable stock crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/disableStockcrash.jpg)     
     
 ## 3. Tests ##
 
-![Gherkin](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/stockCrashNarrative.JPG)
+![Gherkin](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/stockCrashNarrative.JPG)
 
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

@@ -40,19 +40,19 @@ A drink has the following attributes:
 • Start Price / Current Price    
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageDrinks.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageDrinks.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkFlow.jpg)     
+![Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinkFlow.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---
-![Alternative Flow](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkAlternativeFlow.jpg)    
+![Alternative Flow](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinkAlternativeFlow.jpg)    
 
 ## 3. Tests ##
-![Add Drinks](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/addDrinkNarrative.JPG)
+![Add Drinks](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/addDrinkNarrative.JPG)
     
 ## 4. Special Requirements ##
 ### 4.1 Usability ###

@@ -34,19 +34,19 @@ Enable Party
 In the admin panel you have the possibility to enable the party. It means that the calculation algorithm starts to calculate the drinks prices for in the given interval.    
 ### 1.2  MockUp ###
 ---
-![MockUp](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/manageDrinks.png)
+![MockUp](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/manageDrinks.png)
 
 ## 2. Flow of Events Name ##
 ### 2.1 Basic Flow ###
 ---
-![enable stock crash](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/enablePartyFlow.jpg)     
+![enable stock crash](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enablePartyFlow.jpg)     
 
 ### 2.2 Alternative Flow ###
 ---
 n/a        
 ## 3. Tests ##
 
-![Gherkin](https://bytebucket.org/stockings/projectmanagement/raw/master/useCases/enablePartyNarrative.jpg)
+![Gherkin](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/useCases/enablePartyNarrative.jpg)
 
 ## 4. Special Requirements ##
 ### 4.1 Usability ###
