@@ -1,30 +1,35 @@
 # Stock Party Software #
 ---
-## RUP Test Plan ##
+## Software Architecture Document ##
+#### For node.JS / node-webkit / RFID ####
 
-*Version 1.5*
+*Version 1.0*
 
 
 
 ## Revision History ##
 ----
 Check this file's history directly on Github.
-[RUP Revision History](https://github.com/unverschaemt/stockparty-projektmanagement/commits/master/rup.md)
+[RUP Revision History](https://github.com/unverschaemt/stockparty-projektmanagement/commits/master/software_architecture_document.md)
 
 
 
 ## Table of Contents ##
 ---
-2. Introduction
-3. Evaluation Mission and Test
-4. Outline of Planned Tests
-5. Test Approach
-6. Deliverables
+2. Architectural Representation
+3. Architectural Goals and Constraints
+4. Use-Case View
+4.1. Use-Case Realizations
+5. Logical View
+5.2. Architecturally Significant Design Packages
+6. Process View
+7. Deployment View
+9. Data View (optional)
 
 
-# RUP Test Plan #
+# Software Architecture Document #
 
-## 1. Introduction ##
+## 2. Architectural Representation ##
 ---
 In our project we are using a MVW (Model View Whatever) model. Whatever describes a complex constellation of different controllers and models an client and server side. To get an overview to this architecture you should have a look on:
 
