@@ -20,15 +20,7 @@ Check this file's history directly on Github.
 6. Deliverables
 
 #1. Introduction   
-In our project we are using a MVW (Model View Whatever) model. Whatever describes a complex constellation of different controllers and models an client and server side. To get an overview to this architecture you should have a look on:
 
-[MVC Overview](http://unverschaemt.net/stockparty/MVC.html)
-
-Detailed server-side UML Diagram:
-[UML Class Diagram Server](http://unverschaemt.net/stockparty/Class%20Diagram.html)
-Detailed client-side UML Diagram:
-[UML Class Diagram Client](http://unverschaemt.net/stockparty/Class%20Diagram%20Client.html)
-  
 ## Intended Audience
 * Students  
 * Professors
@@ -45,10 +37,6 @@ This leads to a broken project and is often hard to resolve since you probably d
 We've chosen to use Mocha since it fits best into our project, but it's quite hard to keep an accurate test coverage, since we're using a special and customized design pattern.    
 Also there's a lot of UI-specific code that is hardly testable in general since it can differ a lot in different browsers.
   
-## 3. Architectural Goals and Constraints ##
-Our goal is to be able to change each part of the software easily without any influence to other parts. We haven’t a certain tool to provide this because it is not necessary because of our architecture.
-
- 
 ## Evaluation Mission
 **What we except from our tests**
 * keep calculating algorithms (most important core) working correctly
