@@ -264,7 +264,7 @@ Coming soon
 ## 3.11 Legal, Copyright and Other Notices ##
 ---
 **Copyright 2014 Unverschämt.**
-Our project is hosted by bitbucket.org.
+Our project is hosted by github.com.
 It is licensed under the GNU Affero General Public License (AGPL) v3
 *for more Information: (http://www.gnu.org/licenses/agpl-3.0.html)*
 

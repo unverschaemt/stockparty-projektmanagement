@@ -1,80 +1,87 @@
 # Stock Party Software #
----
 ## RUP Test Plan ##
 
-*Version 1.5*
+*Version 1.6*
 
 
 
 ## Revision History ##
-----
-Check this file's history directly on Github.
+Check this file's history directly on Github.     
 [RUP Revision History](https://github.com/unverschaemt/stockparty-projektmanagement/commits/master/rup.md)
 
 
 
 ## Table of Contents ##
----
-2. Introduction
-3. Evaluation Mission and Test
+1. Introduction
+2. Evaluation Mission and Test
+3. Architectural Goal and Constraints
 4. Outline of Planned Tests
 5. Test Approach
 6. Deliverables
 
-
-# RUP Test Plan #
-
-## 1. Introduction ##
----
+#1. Introduction   
 In our project we are using a MVW (Model View Whatever) model. Whatever describes a complex constellation of different controllers and models an client and server side. To get an overview to this architecture you should have a look on:
 
 [MVC Overview](http://unverschaemt.net/stockparty/MVC.html)
 
 Detailed server-side UML Diagram:
 [UML Class Diagram Server](http://unverschaemt.net/stockparty/Class%20Diagram.html)
-
 Detailed client-side UML Diagram:
 [UML Class Diagram Client](http://unverschaemt.net/stockparty/Class%20Diagram%20Client.html)
+  
+## Intended Audience
+* Students  
+* Professors
+* Open-source enthusiasts  
+  
+## Document Terminology and Acronyms
 
-
+#2. Evaluation Mission and Test Motivation
+Within todays fast and changing environment one will probably fail without automated tests. Weird error messages lead to unsatisfied customers. Still errors will occur, because you will never be able to cover them all. But the main goal with this approach is to cover more than 80% of all methods as well as keep them tested, because often errors happen to channel into your code with later commits.
+    
+This leads to a broken project and is often hard to resolve since you probably don't even know why.
+  
+## Background
+We've chosen to use Mocha since it fits best into our project, but it's quite hard to keep an accurate test coverage, since we're using a special and customized design pattern.    
+Also there's a lot of UI-specific code that is hardly testable in general since it can differ a lot in different browsers.
+  
 ## 3. Architectural Goals and Constraints ##
----
 Our goal is to be able to change each part of the software easily without any influence to other parts. We haven’t a certain tool to provide this because it is not necessary because of our architecture.
 
+ 
+## Evaluation Mission
+**What we except from our tests**
+* keep calculating algorithms (most important core) working correctly
+* eliminate later bug occurence
+* quality standards
+* fast coverage overview
+* automatisation
+* faster & smoother development
 
-## 4. Use-Case View ##
----
-n/a
-
-
-### 4.1. Use-Case Realizations ###
----
-n/a
-
-
-## 5. Logical View ##
----
-MVC.html
-Detailed server-side UML Diagram: Class Diagram.html
-Detailed client-side UML Diagram: Class Diagram Client.html Overview
-
-
-### 5.2.Architecturally Significant Design Packages ###
----
-n/a
+## Motivation
+* quality risks
+* technical risks
+* project risks
+* use cases
+* functional requirements
+* non-functional requirements
+* suspected failures
 
 
-## 6.Process View ##
-n/a
+# Approach
+All tests can be executed seperately as well as automated with a build tool or continuous integration. Results are optionally sent to our HipChat conversation room or developers mailing list.
 
+## Testing Technique
+As mentioned above we keep our code base tested with automated Mocha tests. Those run through all specified use cases and calls each method on the one hand with valid input to validate those methods work as desired and on the other hand with invalid input to also cover error handling and possible system crashes. 
 
-## 7.Deployment View ##
-MVC.html
+#### Resources
+Each test case comes with a `.feature` file that formally describes the test case in human readable format.     
 
+They are mostly functional and descriptive with clear demand.
 
-### 7.1.Overview ###
-n/a
+# Deliverables
+### Mocha
+![Mocha](mochaTests.png)  
 
-
-### 7.2.Layers ###
-n/a
+### Code Climate
+![CodeClimate](codeclimate.png)  
