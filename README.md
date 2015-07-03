@@ -6,9 +6,9 @@ Stock party is a system to run an innovative party according to the world stock 
     
 
 ## Requirements
-* **[Use Case Specifications UCS](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md#markdown-header-31-functionality)**   
+* **[Use Case Specifications UCS](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md#31-functionality)**   
 * **[Software Requirement Specification SRS](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md)**   
-* **[Functional Tests (Cucumber Tests)](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md#markdown-header-31-functionality)**        
+* **[Functional Tests (Cucumber Tests)](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/srs.md#31-functionality)**        
 *(You can find the links to our cucumber narrations in our Use Case Specifications)*    
 
 * **[RUP Test Plan](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/rup.md)**    
