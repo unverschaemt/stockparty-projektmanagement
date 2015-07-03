@@ -37,3 +37,4 @@ Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)
 
 **Presentation**   
 [Presentation](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/StockPartyPresentation.pdf)
+[Final Presentation](http://www.google.de/)
