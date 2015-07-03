@@ -24,7 +24,7 @@ Here you can also find our UML class diagramms for server and client side and an
 ** [Jira Project](http://server.unverschaemt.net:8080/browse/SP/)**   
 A issue tracker for our clients is integrated in Jira. (Please log in first)
    
-** [Burndown Chart](http://jira.it.dh-karlsruhe.de:8080/secure/RapidBoard.jspa?rapidView=83&view=reporting&chart=burndownChart&sprint=339)**   
+** [Burndown Charts](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/Burndown.md)**   
 
      
 
