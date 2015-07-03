@@ -11,6 +11,7 @@ Stock party is a system to run an innovative party according to the world stock 
 You can find the links to our cucumber narrations in our Use Case Specifications.
 
 ** [RUP Test Plan](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/rup.md) **
+Note: See [this post](http://blog.unverschaemt.net/post/119357652334/test-coverage) for information concerning test-coverage.  
   
 ** [Lifecycle Process Open Project](http://op.it.dh-karlsruhe.de/projects/stockparty)**   
   
