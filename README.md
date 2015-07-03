@@ -30,7 +30,7 @@ A issue tracker for our clients is integrated in Jira. (Please log in first)
    
 ** [Burndown Charts](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/Burndown.md)**   
 
-     
+** [Installation](http://blog.unverschaemt.net/post/123140186654/installation-vmware) **     
 
 **Blog**    
 Visit [blog.unverschaemt.net](http://blog.unverschaemt.net)   
