@@ -3,8 +3,8 @@ We used [Jira](http://server.unverschaemt.net:8080/browse/SP/) to track our work
 
 ##Burndown-Chart 1
 
-[Burndown-1](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/burndown1.png)
+![Burndown-1](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/burndown1.png)
 
 ##Burndown-Chart 2
 
-[Burndown-2](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/burndown2.png)
+![Burndown-2](https://github.com/unverschaemt/stockparty-projektmanagement/blob/master/burndown2.png)
